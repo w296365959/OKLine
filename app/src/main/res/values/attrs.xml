@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingsLayout">
+        <attr name="pic" format="reference"/>
+        <attr name="text" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="SettingsButton">
+        <attr name="pic1" format="reference"/>
+        <attr name="text1" format="reference"/>
+        <attr name="bg1" format="reference"/>
+        <attr name="scale" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingLayout">
+        <attr name="inner_text" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="OcardButton">
+        <attr name="button_img0" format="reference"/>
+        <attr name="button_img1" format="reference"/>
+        <attr name="button_img2" format="reference"/>
+        <attr name="button_text" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="OKCardView">
+        <attr name="fragment_name" format="string"/>
+    </declare-styleable>
+</resources>

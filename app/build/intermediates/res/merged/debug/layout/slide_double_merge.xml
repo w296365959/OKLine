@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/view_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/color_card_background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_card_margin_top"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_default"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:gravity="center_vertical|start"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_card_set_default"/>
+
+                <TextView
+                    android:id="@+id/tv_card_set_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/card_set_default"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_pay"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:gravity="center|start"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_card_pay"/>
+
+                <TextView
+                    android:id="@+id/tv_card_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/card_pay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

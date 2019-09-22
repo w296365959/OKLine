@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:fresco="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/transparent"
+             android:gravity="center"
+             android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="302dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_shape_card_notice">
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="@color/color_gray_54"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_amount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_card_notice_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_balance"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/app_name"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_btn"
+            android:layout_width="246dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg_shape_card_notice_btn"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <FrameLayout
+            android:id="@+id/layout_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tv_btn"
+            android:layout_below="@id/iv_card_notice_state"
+            android:layout_centerHorizontal="true">
+
+            <!-- open card or consume -->
+            <LinearLayout
+                android:id="@+id/layout_open_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/simple_card_image"
+                    android:layout_width="259dp"
+                    android:layout_height="169dp"
+                    android:padding="7.2dp"
+                    fresco:actualImageScaleType="focusCrop"
+                    fresco:fadeDuration="300"
+                    fresco:placeholderImage="@color/white"
+                    fresco:placeholderImageScaleType="fitCenter"
+                    fresco:roundBottomLeft="true"
+                    fresco:roundBottomRight="true"
+                    fresco:roundTopLeft="true"
+                    fresco:roundTopRight="true"
+                    fresco:roundedCornerRadius="5dp"/>
+
+                <!-- print button -->
+                <LinearLayout
+                    android:id="@+id/layout_print"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageButton
+                        android:id="@+id/ib_print_ticket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="41dp"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/ic_print_ticket"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_print_pos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="41dp"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/ic_print_pos"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_print_invoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/ic_print_invoice"/>
+
+                </LinearLayout>
+
+                <!-- card download success -->
+                <LinearLayout
+                    android:id="@+id/layout_download_success"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_card_info"
+                        android:layout_width="70dp"
+                        android:layout_height="28dp"
+                        android:background="@drawable/bg_shape_card_notice_green"
+                        android:gravity="center"
+                        android:text="@string/card_notice_card_info"
+                        android:textColor="@color/color_green"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_card_valid"
+                        android:layout_width="70dp"
+                        android:layout_height="28dp"
+                        android:background="@drawable/bg_shape_card_notice_green"
+                        android:gravity="center"
+                        android:text="@string/card_notice_valid"
+                        android:textColor="@color/color_green"
+                        android:textSize="10sp"
+                        android:visibility="gone"/>
+
+
+                </LinearLayout>
+
+                <!-- card download fail -->
+                <TextView
+                    android:id="@+id/tv_download_card_fail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/card_notice_check_bluetooth"
+                    android:textColor="@color/color_gray_54"
+                    android:textSize="13sp"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+            <!-- card recharge -->
+            <LinearLayout
+                android:id="@+id/layout_card_recharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <!-- card image-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="48dp"
+                    android:orientation="horizontal">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/simple_card_image_from"
+                        android:layout_width="140dp"
+                        android:layout_height="94dp"
+                        android:padding="7dp"
+                        fresco:actualImageScaleType="focusCrop"
+                        fresco:fadeDuration="300"
+                        fresco:placeholderImage="@color/black"
+                        fresco:placeholderImageScaleType="fitCenter"
+                        fresco:roundBottomLeft="true"
+                        fresco:roundBottomRight="true"
+                        fresco:roundTopLeft="true"
+                        fresco:roundTopRight="true"
+                        fresco:roundedCornerRadius="3dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/ic_card_to"/>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/simple_card_image_to"
+                        android:layout_width="140dp"
+                        android:layout_height="94dp"
+                        android:padding="7dp"
+                        fresco:actualImageScaleType="focusCrop"
+                        fresco:fadeDuration="300"
+                        fresco:placeholderImage="@color/black"
+                        fresco:placeholderImageScaleType="fitCenter"
+                        fresco:roundBottomLeft="true"
+                        fresco:roundBottomRight="true"
+                        fresco:roundTopLeft="true"
+                        fresco:roundTopRight="true"
+                        fresco:roundedCornerRadius="4dp"
+                        />
+                </LinearLayout>
+
+                <!--card recharge success -->
+                <LinearLayout
+                    android:id="@+id/layout_recharge_success"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="42dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_discount_active"
+                        android:layout_width="70dp"
+                        android:layout_height="28dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/bg_shape_card_notice_orange"
+                        android:gravity="center"
+                        android:text="@string/card_notice_discount_active"
+                        android:textColor="@color/color_orange"
+                        android:textSize="10sp"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/tv_recharge_info"
+                        android:layout_width="70dp"
+                        android:layout_height="28dp"
+                        android:background="@drawable/bg_shape_card_notice_green"
+                        android:gravity="center"
+                        android:text="@string/card_notice_recharge_info"
+                        android:textColor="@color/color_green"
+                        android:textSize="10sp"/>
+
+                </LinearLayout>
+
+                <!-- card recharge fail -->
+                <LinearLayout
+                    android:id="@+id/layout_recharge_fail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_notice_recharge_fail"
+                        android:textColor="@color/color_orange"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/card_notice_check_bluetooth"
+                        android:textColor="@color/color_gray_54"
+                        android:textSize="13sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!-- voice -->
+        <ImageButton
+            android:id="@+id/ib_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layout_middle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginEnd="28dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_card_notice_voice"
+            android:visibility="gone"
+            />
+
+        <!-- give up button-->
+        <TextView
+            android:id="@+id/tv_btn_give_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"
+            android:text="@string/card_notice_no_recharge"
+            android:textColor="@color/color_green"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,159 @@
+apply plugin: 'com.android.application'
+//Added by wangshuai 2017-06-14 library中使用butterknife的注解
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+//    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.vboss.okline"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 201705221
+        versionName "1.0.052"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//Add for jpush
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "5b7e372b2b7be0c407627f8e", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+//End for jpush
+    }
+    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
+        destinationDir file("$projectDir/libs")
+        baseName "Native_Libs2"
+        extension "jar"
+        from fileTree(dir: "libs", include: "**/*.so")
+        into "lib"
+    }
+    /**** 解决由于.9图片引起的编译出错的问题 ****/
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn(nativeLibsToJar)
+    }
+
+    signingConfigs {
+        config {
+            keyAlias 'android.keystore'
+            keyPassword 'okline'
+            storeFile file('./android.keystore')
+            storePassword 'okline'
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            signingConfig signingConfigs.config
+        }
+        release {
+            debuggable false
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.config
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jni.srcDirs = ["jniLibs"]
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    /*compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }*/
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def fileName
+                if (variant.buildType.name.equals("release")) {
+                    fileName = "ol_v${versionName}_${versionCode}_release.apk"
+                } else {
+                    fileName = "ol_v${versionName}_${versionCode}_debug.apk"
+                }
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+}
+
+
+repositories {
+    flatDir { dirs 'libs' }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.facebook.fresco:fresco:1.2.0'
+    /*compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'*/
+
+    //Added by wangshuai 2017-06-14 library中使用butterknife的注解
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+
+
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.bartoszlipinski.recyclerviewheader:library:1.2.0'
+    //图睿sdk
+    compile files('libs/TCardApi.jar')
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.facebook.fresco:animated-gif:1.2.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile project(':data')
+    compile project(':easeui')
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.2.1'
+    compile 'com.belerweb:pinyin4j:2.5.1'
+    compile 'com.jakewharton.timber:timber:4.5.1'
+    compile('com.hwangjr.rxbus:rxbus:1.0.5') {
+        exclude group: 'com.jakewharton.timber', module: 'timber'
+    }
+    //For jpush
+    compile 'cn.jiguang.sdk:jpush:3.0.3'
+    compile 'cn.jiguang.sdk:jcore:1.1.1'
+    //Lean cranary
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    compile project(':zxing')
+    compile 'in.srain.cube:ptr-load-more:1.0.6'
+    compile 'com.bignerdranch.android:expandablerecyclerview:3.0.0-RC1'
+    compile project(':phone')
+
+
+    compile files('libs/windvane-min-8.0.3.2.3.jar')
+    compile(name: 'NoCaptchaSDK-external-release-5.3.21', ext: 'aar')
+    compile(name: 'SecurityGuardSDK-external-release-5.3.38', ext: 'aar')
+    compile(name: 'SecurityBodySDK-external-release-5.3.27', ext: 'aar')
+    compile(name: 'FaceLivenessSDK-1.4.0.15', ext: 'aar')
+    compile(name: 'rpsdk-1.5.0.0', ext: 'aar')
+    //Added by wangshuai 2017-06-14
+    compile project(':assistant')
+
+
+}

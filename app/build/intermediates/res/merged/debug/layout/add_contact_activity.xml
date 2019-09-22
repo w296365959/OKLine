@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/ll_create_con_phone"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <TextView
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="手机号："/>
+
+        <com.vboss.okline.view.widget.ClearEditText
+            android:id="@+id/et_createCon_phoneNum"
+            style="@style/inputStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="请输入手机号码"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+    <View
+        style="@style/underline_no_margin"/>
+
+    <LinearLayout
+        android:id="@+id/ll_create_con_name"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <TextView
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="备注名："
+            />
+
+        <com.vboss.okline.view.widget.ClearEditText
+            android:id="@+id/et_addCon_remark"
+            style="@style/inputStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入备注名"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+
+    <View
+        style="@style/underline_no_margin"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_add_contact"
+        android:layout_width="@dimen/add_button_width"
+        android:layout_height="@dimen/add_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/add_button_topmargin"
+        android:background="@drawable/contact_button_click_selector"
+        android:gravity="center"
+        android:text="添加"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>

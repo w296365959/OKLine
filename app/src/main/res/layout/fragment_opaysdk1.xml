@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="423dp"
+    android:layout_gravity="bottom"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_centerVertical="true"
+                android:src="@drawable/opay"
+                android:scaleX="1.0"
+                android:scaleY="1.0"
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/tv_paypopcancel"
+                android:text="取消"
+                android:layout_marginRight="12.5dp"
+                android:textColor="@color/opayStyleColor"
+                android:textSize="15sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ebebeb" />
+
+        <RelativeLayout
+            android:id="@+id/rl_payabledesc"
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="12.5dp"
+                android:layout_centerVertical="true"
+                android:textColor="#999999"
+                android:text="商品详情"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_payabledesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12.5dp"
+                android:text="商品详情"
+                android:paddingRight="14dp"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ebebeb" />
+
+        <RelativeLayout
+            android:id="@+id/rl_payableaccount"
+            android:layout_width="match_parent"
+            android:layout_height="54dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="12.5dp"
+                android:layout_centerVertical="true"
+                android:textColor="#999999"
+                android:text="付款卡"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_selectedAccountName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12.5dp"
+                android:text="杭州工商银行储蓄卡(6975) > "
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ebebeb" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorContentSubText"
+                android:text="需付款"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_amout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="25dp"
+                android:text="￥85.00"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/bt_payconfirm"
+            android:layout_marginTop="81dp"
+            android:background="@drawable/view_button_blue_background"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:text="确认付款"
+            android:textColor="@android:color/white"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

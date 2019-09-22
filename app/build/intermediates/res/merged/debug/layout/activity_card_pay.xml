@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frame_layout_color">
+
+
+    <ImageView
+        android:id="@+id/iv_card_pay_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/card_pay_tip"
+        android:src="@mipmap/ic_card_pay_close"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_card_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/card_pay_title_tip"
+                android:src="@mipmap/logo"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_pay_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/margin_5"
+                android:textColor="@color/colorCardPayTip"
+                android:textSize="@dimen/card_pay_title_tip_size"/>
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_card_pay"
+                android:layout_width="@dimen/card_pay_img_width"
+                android:layout_height="@dimen/card_pay_img_height"
+                fresco:placeholderImage="@mipmap/image_card_default"
+                fresco:placeholderImageScaleType="fitCenter"
+                />
+
+            <TextView
+                android:id="@+id/tv_card_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="17dp"
+                android:text="@string/card_cardNo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_14"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
+
+
+        <!-- 会员卡积分和余额 -->
+        <LinearLayout
+            android:id="@+id/layout_card_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_card_member_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_balance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_14"
+                />
+
+            <TextView
+                android:id="@+id/tv_card_member_integral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/card_integral"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_14"
+                />
+        </LinearLayout>
+
+        <!-- 支付提示 -->
+        <TextView
+            android:id="@+id/tv_card_pay_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/card_pay_tip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_14"
+            android:visibility="gone"/>
+
+        <!-- 交易成功 -->
+        <LinearLayout
+            android:id="@+id/layout_card_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/tv_card_trade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/card_pay_success"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_card_pay_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/card_pay_balance"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_card_pay_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/card_pay_discount"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:id="@+id/layout_card_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_card_pay_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:background="@color/white"
+                    android:paddingBottom="13dp"
+                    android:paddingEnd="36dp"
+                    android:paddingStart="36dp"
+                    android:paddingTop="13dp"
+                    android:text="@string/card_log_ticket"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_12"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_card_pay_pos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@color/white"
+                    android:paddingBottom="13dp"
+                    android:paddingEnd="36dp"
+                    android:paddingStart="36dp"
+                    android:paddingTop="13dp"
+                    android:text="@string/card_log_pos"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_12"
+                    android:visibility="gone"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--余额不足-->
+        <LinearLayout
+            android:id="@+id/layout_card_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_card_member_no_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/card_balance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_14"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/card_no_balance"
+                android:textColor="@color/colorCardPayTip"
+                android:textSize="@dimen/textSize_14"
+                />
+
+            <!-- 选择充值金额 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_card_recharge_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_card_pay_bg"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="22dp"
+                    android:paddingStart="22dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/card_recharge_1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_card_recharge_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginStart="7dp"
+                    android:background="@drawable/shape_card_pay_bg"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="22dp"
+                    android:paddingStart="22dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/card_recharge_2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_card_recharge_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_card_pay_bg"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="22dp"
+                    android:paddingStart="22dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/card_recharge_3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_card_now_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_card_recharge_1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/card_now_recharge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize_14"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_card_no_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/shape_card_pay_bg"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/card_no_recharge"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

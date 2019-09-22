@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_star__white_height">62dp</dimen>
+    <dimen name="add_star_delete_marginright">21dp</dimen>
+    <dimen name="add_star_dialog_height">86dp</dimen>
+    <dimen name="add_star_dialog_width">111dp</dimen>
+    <dimen name="add_star_star_delete_margin">26dp</dimen>
+    <dimen name="add_star_star_marginleft">21dp</dimen>
+    <dimen name="add_star_star_name_margin">9dp</dimen>
+    <dimen name="add_star_title">24dp</dimen>
+    <dimen name="add_star_title_img">13dp</dimen>
+    <dimen name="add_star_title_img_marginleft">5dp</dimen>
+    <dimen name="add_star_title_name">10sp</dimen>
+    <dimen name="add_star_title_name_marginleft">4dp</dimen>
+    <dimen name="app_pool_newApp_img_height">53dp</dimen>
+    <dimen name="app_pool_newApp_img_marginTop">13dp</dimen>
+    <dimen name="app_pool_newApp_marginTop">11dp</dimen>
+    <dimen name="app_pool_newApp_name_marginBottom">17dp</dimen>
+    <dimen name="app_pool_newApp_name_marginTop">9dp</dimen>
+    <dimen name="app_pool_newApp_title_height">37dp</dimen>
+    <dimen name="app_pool_newApp_title_marginLeft">7dp</dimen>
+    <dimen name="app_pool_newApp_title_name">14sp</dimen>
+    <dimen name="app_pool_type_item_height">44dp</dimen>
+    <dimen name="app_pool_type_item_marginLeft">12dp</dimen>
+    <dimen name="app_pool_type_name_marginLeft">8dp</dimen>
+    <dimen name="app_pool_type_title_marginTop">14dp</dimen>
+</resources>

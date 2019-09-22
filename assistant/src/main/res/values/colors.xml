@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--Added by wangshuai -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_line_gray">#dfdfdf</color>
+    <color name="color_gray_9f">#9f9f9f</color>
+    <color name="color_gray_9e">#9e9e9e</color>
+    <color name="color_green">#25a514</color>
+    <color name="color_gray_f4">#f4f4f4</color>
+    <color name="color_shadow">#33000000</color>
+    <color name="color_gray_54">#545454</color>
+    <color name="color_orange">#ff6600</color>
+    <color name="color_gray_80">#80000000</color>
+    <color name="color_gray_66">#666666</color>
+    <color name="color_gray_7f">#7f7f7f</color>
+    <color name="color_gray_f2">#f2f2f2</color>
+    <color name="color_red">#ff0101</color>
+
+    <!-- -->
+    <color name="opayStyleColor">#25a514</color>
+    <color name="darker_gray">#666</color>
+    <color name="colorContentSubText">#999999</color>
+
+    <!--add by yuanshaoyu-->
+    <color name="colorShadow">#33000000</color>
+    <color name="colorWarningText">#F00</color>
+    <color name="colorThemeBackground">#1f86ed</color>
+    <color name="colorActivityBackground">#EBEBEB</color>
+
+    <color name="dash_line">#6666</color>
+    <color name="express_green">#25a613</color>
+
+</resources>

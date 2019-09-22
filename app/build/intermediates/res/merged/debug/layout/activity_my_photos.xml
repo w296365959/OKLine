@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vboss.okline.ui.user.files.MyPhotosActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarSize"
+        android:background="@android:color/black">
+
+        <RelativeLayout
+            android:id="@+id/action_back_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:paddingEnd="@dimen/margin_5">
+
+            <ImageButton
+                android:id="@+id/action_back"
+                android:layout_width="@dimen/actionBarSize"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:clickable="false"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_toolbar_back"
+                android:tint="@color/white"/>
+
+            <com.vboss.okline.ui.card.widget.LogoView
+                android:id="@+id/iv_ocard_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/action_back"
+                android:src="@mipmap/logo"/>
+
+            <com.vboss.okline.view.widget.OKCardView
+                android:id="@+id/okcard_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/iv_ocard_state"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_logo"
+                android:layout_width="@dimen/actionBar_logo_width"
+                android:layout_height="@dimen/actionBar_logo_height"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                app:actualImageScaleType="fitCenter"
+                app:placeholderImage="@mipmap/logo"
+                app:placeholderImageScaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/action_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="3dp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/actionBarTitleSize"
+                android:visibility="visible"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/action_menu_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:paddingStart="@dimen/margin_5">
+
+            <TextView
+                android:text="选择"
+                android:padding="5dp"
+                android:textSize="@dimen/actionBarTitleSize"
+                android:id="@+id/tv_choose"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

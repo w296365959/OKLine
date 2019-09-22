@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_underline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorActivityBackground"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_item_height"
+        android:background="@drawable/settings_item_selector">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="@dimen/contact_item_avatar_width"
+            android:layout_height="@dimen/contact_item_avatar_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            android:layout_toRightOf="@+id/checkbox_item"
+            fresco:placeholderImage="@mipmap/default_avatar"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true"
+            fresco:roundedCornerRadius="3dp"/>
+
+        <ImageView
+            android:id="@+id/iv_contact_ischeck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:layout_toLeftOf="@+id/tv_contact_name"
+            android:layout_toStartOf="@+id/tv_contact_name"
+            android:background="@drawable/oule_vip"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/iv_contact_avatar"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="222" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_contact_name"
+            android:layout_toRightOf="@+id/iv_contact_avatar"
+            android:singleLine="true"
+            android:text="13133333333"
+            android:textColor="@color/contacts_card_phoneNum"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_contact_avatar"/>
+
+        <TextView
+            android:id="@+id/tv_add_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_add_new_contact"
+            android:padding="5dp"
+            android:text="添加"
+            android:textSize="12sp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,1292 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:2:1-496:12
+	package
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:4:11-37
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:3:11-57
+	xmlns:android
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:6:5-8:40
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\WZM\.android\build-cache\ecbe004958541441ef0e2bb7c45104f7f2917038\output\AndroidManifest.xml:18:5-42
+MERGED from [com.bartoszlipinski.recyclerviewheader:library:1.2.0] C:\Users\WZM\.android\build-cache\eb75e3b2b95b813a79698ee756018fea08665cfd\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\WZM\.android\build-cache\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\WZM\.android\build-cache\9d651a59b08900f0893b2088d721058b136bb88b\output\AndroidManifest.xml:20:5-44
+MERGED from [trunk:easeui:unspecified] F:\OKLine\7-9\trunk\easeui\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [trunk:data:unspecified] F:\OKLine\7-9\trunk\data\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.sqlbrite:sqlbrite:1.1.1] C:\Users\WZM\.android\build-cache\7ce2af31dc325e2f56b5296675c3398ab623ebb4\output\AndroidManifest.xml:5:5-43
+MERGED from [com.squareup.sqldelight:runtime:0.6.1] C:\Users\WZM\.android\build-cache\656f3dd137c2951cb2909561828233b31f64250f\output\AndroidManifest.xml:6:5-43
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:1.1.1] C:\Users\WZM\.android\build-cache\e2dcee8847024c983700d60391b7039d6f5d98ba\output\AndroidManifest.xml:7:5-9:41
+MERGED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [in.srain.cube:ptr-load-more:1.0.6] C:\Users\WZM\.android\build-cache\091e9be32016d5559c9580839d6a504510d6e366\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bignerdranch.android:expandablerecyclerview:3.0.0-RC1] C:\Users\WZM\.android\build-cache\2650924a3eef5cb4badde4674c133a6cdee7369b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [:NoCaptchaSDK-external-release-5.3.21:] C:\Users\WZM\.android\build-cache\377e9629e2015b3cef2ae2075882281d8f9f83a9\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:SecurityBodySDK-external-release-5.3.27:] C:\Users\WZM\.android\build-cache\b1264ccbcccf0ab5d9a89e3db1ef9ea328674508\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:7:5-9:41
+MERGED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\WZM\.android\build-cache\b9616204d37e6914906d069022c1aad98fc5bdb7\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\WZM\.android\build-cache\c75686bf16468d0625f1c704276b498504c84b08\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\WZM\.android\build-cache\286132f0a01670a45c7b16db6a55fe4a4cc564a7\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\WZM\.android\build-cache\7194649b6d9085b84be7cefd232eab892d84bb0a\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\WZM\.android\build-cache\f2edc8df2b77abba34907b1248f4b2b2d7f514a9\output\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:animated-gif:1.3.0] C:\Users\WZM\.android\build-cache\8397859d482d9c3c14191f5367b5ecf83dedf943\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.3.0] C:\Users\WZM\.android\build-cache\cdaf33b79bf9d7f955ef236233c704c616ab8f99\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\WZM\.android\build-cache\6d4c74207f83a81a0aef7555fd9b5d18a2d21f56\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\WZM\.android\build-cache\73d6c25faa166441da5ba1af05d777c06c01fa91\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\WZM\.android\build-cache\301074448e90358dce0f01383d8c74bc6456aa37\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.5] C:\Users\WZM\.android\build-cache\d138e38119ddbc764e1498012bb02ecfa58b3d85\output\AndroidManifest.xml:5:5-7:41
+MERGED from [trunk:http:unspecified] F:\OKLine\7-9\trunk\http\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\WZM\.android\build-cache\b9b39cbc3a065882c53e418638b96eb33613e505\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\WZM\.android\build-cache\d3fa08fc3d06ec7f6b87af121d16604555e2093f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\WZM\.android\build-cache\0abf29681670fd35b52d87496b8ccd6449614c24\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\WZM\.android\build-cache\a5bd305a4ac9dca477e3f32ab730325e9bc2d6f0\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\WZM\.android\build-cache\382dfb545a3fdc4d3a704472a73886776e95fe7d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\WZM\.android\build-cache\ddd5af3ac123f4aeb9bf3ac57c476cc0ec694739\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\WZM\.android\build-cache\679d71db8b94df980af883e8fd352c8787dc6da0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\WZM\.android\build-cache\bbd4ab7794797c8412c358727248d7e4cd5539db\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\WZM\.android\build-cache\e5393a6a11f1cec1c2a7d049cab51d4d08c671c3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\WZM\.android\build-cache\7b23a4c94a9b2cf46f6f66ee744cb4d14e680d67\output\AndroidManifest.xml:6:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\WZM\.android\build-cache\44e5c7f65716a893e54ecb84fd8bb348587fae0e\output\AndroidManifest.xml:19:5-43
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\WZM\.android\build-cache\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:11:5-65
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:24:5-66
+MERGED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.INTERNET
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:13:5-66
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:18:5-67
+MERGED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:13:5-67
+MERGED from [:NoCaptchaSDK-external-release-5.3.21:] C:\Users\WZM\.android\build-cache\377e9629e2015b3cef2ae2075882281d8f9f83a9\output\AndroidManifest.xml:11:5-67
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:17:5-67
+MERGED from [:SecurityBodySDK-external-release-5.3.27:] C:\Users\WZM\.android\build-cache\b1264ccbcccf0ab5d9a89e3db1ef9ea328674508\output\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:14:5-83
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:15:5-80
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:21:5-81
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:12:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:22:5-80
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:11:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CAMERA
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:17:5-64
+MERGED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:11:5-65
+MERGED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:17:22-62
+uses-feature#android.hardware.camera
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:19:5-59
+MERGED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:13:5-60
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:19:19-57
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:21:5-75
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:27:5-76
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:21:22-73
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:23:5-69
+MERGED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:23:19-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:27:5-80
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:31:5-81
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:29:5-78
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:33:5-79
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:31:5-78
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:26:5-79
+MERGED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:12:5-79
+MERGED from [:NoCaptchaSDK-external-release-5.3.21:] C:\Users\WZM\.android\build-cache\377e9629e2015b3cef2ae2075882281d8f9f83a9\output\AndroidManifest.xml:12:5-79
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:13:5-79
+MERGED from [:SecurityBodySDK-external-release-5.3.27:] C:\Users\WZM\.android\build-cache\b1264ccbcccf0ab5d9a89e3db1ef9ea328674508\output\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:33:5-75
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:32:5-76
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:33:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:35:5-74
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:20:5-75
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:35:22-72
+uses-permission#manifest.permission.RECORD_AUDIO
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:37:5-71
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:37:22-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:39:5-70
+MERGED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:39:22-68
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:41:5-67
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:41:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:42:5-67
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:43:5-79
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:43:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:44:5-80
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:46:5-80
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:46:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:47:5-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:47:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:50:5-71
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:50:22-69
+uses-permission#android.permission.SEND_SMS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:51:5-66
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:51:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:52:5-70
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:52:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:54:5-67
+MERGED from [trunk:data:unspecified] F:\OKLine\7-9\trunk\data\build\intermediates\bundles\default\AndroidManifest.xml:11:5-68
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:18:5-68
+MERGED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:11:5-68
+MERGED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:54:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:55:5-73
+MERGED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:55:22-71
+uses-feature#android.hardware.bluetooth_le
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:57:5-59:35
+	android:required
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:59:9-33
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:58:9-53
+uses-permission#android.permission.NFC
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:61:5-61
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:61:22-59
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:62:5-81
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:62:22-79
+permission#com.hyphenate.chatuidemo.permission.C2D_MESSAGE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:64:5-66:46
+	android:protectionLevel
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:66:9-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:65:9-71
+uses-permission#com.hyphenate.chatuidemo.permission.C2D_MESSAGE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:68:5-86
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:68:22-84
+permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:70:5-72:54
+	android:protectionLevel
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:72:9-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:71:9-74
+uses-permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:74:5-89
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:74:22-87
+uses-feature#android.hardware.nfc
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:76:5-78:34
+	android:required
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:78:9-32
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:77:9-44
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:84:5-69
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:84:22-67
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:86:5-71
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:86:22-69
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:89:5-73
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:89:22-71
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:90:5-84
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:90:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:91:5-74
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:91:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:92:5-72
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:23:5-73
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:92:22-70
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:93:5-94
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:93:22-92
+application
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:96:5-494:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\WZM\.android\build-cache\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\WZM\.android\build-cache\9d651a59b08900f0893b2088d721058b136bb88b\output\AndroidManifest.xml:26:5-20
+MERGED from [trunk:data:unspecified] F:\OKLine\7-9\trunk\data\build\intermediates\bundles\default\AndroidManifest.xml:13:5-17:19
+MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:37:5-128:19
+MERGED from [cn.jiguang.sdk:jcore:1.1.1] C:\Users\WZM\.android\build-cache\e2dcee8847024c983700d60391b7039d6f5d98ba\output\AndroidManifest.xml:11:5-12:19
+MERGED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:14:5-18:19
+MERGED from [in.srain.cube:ptr-load-more:1.0.6] C:\Users\WZM\.android\build-cache\091e9be32016d5559c9580839d6a504510d6e366\output\AndroidManifest.xml:11:5-20
+MERGED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:15:5-19:19
+MERGED from [:NoCaptchaSDK-external-release-5.3.21:] C:\Users\WZM\.android\build-cache\377e9629e2015b3cef2ae2075882281d8f9f83a9\output\AndroidManifest.xml:14:5-17:19
+MERGED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:24:5-37:19
+MERGED from [:SecurityBodySDK-external-release-5.3.27:] C:\Users\WZM\.android\build-cache\b1264ccbcccf0ab5d9a89e3db1ef9ea328674508\output\AndroidManifest.xml:14:5-17:19
+MERGED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:11:5-33:19
+MERGED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:16:5-23:19
+MERGED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\WZM\.android\build-cache\b9616204d37e6914906d069022c1aad98fc5bdb7\output\AndroidManifest.xml:9:5-20
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.5] C:\Users\WZM\.android\build-cache\d138e38119ddbc764e1498012bb02ecfa58b3d85\output\AndroidManifest.xml:9:5-12:19
+MERGED from [trunk:http:unspecified] F:\OKLine\7-9\trunk\http\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\WZM\.android\build-cache\b9b39cbc3a065882c53e418638b96eb33613e505\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\WZM\.android\build-cache\d3fa08fc3d06ec7f6b87af121d16604555e2093f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\WZM\.android\build-cache\0abf29681670fd35b52d87496b8ccd6449614c24\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\WZM\.android\build-cache\a5bd305a4ac9dca477e3f32ab730325e9bc2d6f0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\WZM\.android\build-cache\382dfb545a3fdc4d3a704472a73886776e95fe7d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\WZM\.android\build-cache\ddd5af3ac123f4aeb9bf3ac57c476cc0ec694739\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\WZM\.android\build-cache\679d71db8b94df980af883e8fd352c8787dc6da0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\WZM\.android\build-cache\bbd4ab7794797c8412c358727248d7e4cd5539db\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\WZM\.android\build-cache\e5393a6a11f1cec1c2a7d049cab51d4d08c671c3\output\AndroidManifest.xml:29:5-20
+MERGED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:13:5-34:19
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\WZM\.android\build-cache\7b23a4c94a9b2cf46f6f66ee744cb4d14e680d67\output\AndroidManifest.xml:8:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:28:5-57:19
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:102:9-45
+	android:label
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:100:9-41
+		REJECTED from [trunk:data:unspecified] F:\OKLine\7-9\trunk\data\build\intermediates\bundles\default\AndroidManifest.xml:15:9-41
+		REJECTED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:16:9-41
+		REJECTED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:17:9-41
+		REJECTED from [:NoCaptchaSDK-external-release-5.3.21:] C:\Users\WZM\.android\build-cache\377e9629e2015b3cef2ae2075882281d8f9f83a9\output\AndroidManifest.xml:16:9-41
+		REJECTED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:26:9-41
+		REJECTED from [:SecurityBodySDK-external-release-5.3.27:] C:\Users\WZM\.android\build-cache\b1264ccbcccf0ab5d9a89e3db1ef9ea328674508\output\AndroidManifest.xml:16:9-41
+		REJECTED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:16:9-41
+		REJECTED from [trunk:http:unspecified] F:\OKLine\7-9\trunk\http\build\intermediates\bundles\default\AndroidManifest.xml:13:9-41
+		REJECTED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:103:9-35
+		REJECTED from [trunk:data:unspecified] F:\OKLine\7-9\trunk\data\build\intermediates\bundles\default\AndroidManifest.xml:16:9-35
+		REJECTED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:17:9-35
+		REJECTED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:18:9-35
+		REJECTED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:17:9-35
+		REJECTED from [com.hwangjr.rxbus:rxbus:1.0.5] C:\Users\WZM\.android\build-cache\d138e38119ddbc764e1498012bb02ecfa58b3d85\output\AndroidManifest.xml:11:9-35
+		REJECTED from [trunk:http:unspecified] F:\OKLine\7-9\trunk\http\build\intermediates\bundles\default\AndroidManifest.xml:14:9-35
+		REJECTED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:16:9-35
+	android:roundIcon
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:101:9-56
+	android:allowBackup
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:98:9-35
+		REJECTED from [trunk:data:unspecified] F:\OKLine\7-9\trunk\data\build\intermediates\bundles\default\AndroidManifest.xml:14:9-35
+		REJECTED from [trunk:zxing:unspecified] F:\OKLine\7-9\trunk\zxing\build\intermediates\bundles\default\AndroidManifest.xml:15:9-35
+		REJECTED from [trunk:phone:unspecified] F:\OKLine\7-9\trunk\phone\build\intermediates\bundles\default\AndroidManifest.xml:16:9-35
+		REJECTED from [:NoCaptchaSDK-external-release-5.3.21:] C:\Users\WZM\.android\build-cache\377e9629e2015b3cef2ae2075882281d8f9f83a9\output\AndroidManifest.xml:15:9-36
+		REJECTED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:25:9-36
+		REJECTED from [:SecurityBodySDK-external-release-5.3.27:] C:\Users\WZM\.android\build-cache\b1264ccbcccf0ab5d9a89e3db1ef9ea328674508\output\AndroidManifest.xml:15:9-36
+		REJECTED from [trunk:assistant:unspecified] F:\OKLine\7-9\trunk\assistant\build\intermediates\bundles\default\AndroidManifest.xml:15:9-35
+		REJECTED from [com.hwangjr.rxbus:rxbus:1.0.5] C:\Users\WZM\.android\build-cache\d138e38119ddbc764e1498012bb02ecfa58b3d85\output\AndroidManifest.xml:10:9-35
+		REJECTED from [trunk:http:unspecified] F:\OKLine\7-9\trunk\http\build\intermediates\bundles\default\AndroidManifest.xml:12:9-35
+		REJECTED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:99:9-48
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:104:9-40
+	tools:replace
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:105:9-162
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:97:9-39
+meta-data#android.nfc.disable_beam_default
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:106:9-108:35
+	android:value
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:108:13-33
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:107:13-60
+activity#com.vboss.okline.ui.home.MainActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:111:9-126:20
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:114:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:113:13-44
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:115:13-64
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:112:13-49
+intent-filter#android.intent.category.MONKEY+android.nfc.action.TAG_DISCOVERED+android.nfc.action.TECH_DISCOVERED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:116:13-121:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:117:17-76
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:117:25-74
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:118:17-75
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:118:25-73
+category#android.intent.category.MONKEY
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:120:17-74
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:120:27-72
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:123:13-125:58
+	android:resource
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:125:17-56
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:124:17-66
+activity#com.vboss.okline.ui.splash.WelcomeActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:127:9-136:20
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:130:13-64
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:128:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:131:13-135:29
+action#android.intent.action.MAIN
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:132:17-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:132:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:134:17-76
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:134:27-74
+activity#com.vboss.okline.ui.opay.PaymentFailedActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:145:9-66
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:145:19-64
+activity#com.vboss.okline.ui.opay.PaymentSuccessfulActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:146:9-70
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:146:19-68
+activity#com.vboss.okline.ui.opay.OPaySDKActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:147:9-150:58
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:149:13-36
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:150:13-56
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:148:13-52
+activity#com.vboss.okline.ui.user.OpenCardActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:151:9-154:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:154:13-49
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:153:13-36
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:152:13-53
+activity#com.turui.bank.ocr.CaptureActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:155:9-160:62
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:158:13-50
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:160:13-60
+	android:configChanges
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:157:13-63
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:159:13-71
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:156:13-62
+activity#com.ui.card.TRCardScan
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:161:9-163:52
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:163:13-50
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:162:13-50
+activity#com.vboss.okline.ui.auth.CameraIDActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:167:9-169:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:169:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:168:13-53
+activity#com.vboss.okline.ui.auth.SplashActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:170:9-172:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:172:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:171:13-51
+activity#com.vboss.okline.ui.auth.CamerSelfActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:175:9-177:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:177:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:176:13-54
+activity#com.vboss.okline.ui.auth.ApproveIDActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:178:9-180:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:179:13-54
+activity#com.vboss.okline.ui.auth.VerifySuccessActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:183:9-185:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:184:13-58
+activity#com.vboss.okline.ui.auth.VerifyFailActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:186:9-188:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:188:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:187:13-55
+activity#com.vboss.okline.ui.contact.group.CreateGroupActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:191:9-194:67
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:193:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:194:13-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:192:13-65
+activity#com.vboss.okline.ui.contact.addContact.AddContactActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:195:9-198:57
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:197:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:198:13-55
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:196:13-69
+activity#com.vboss.okline.ui.contact.TransferAccounts.TransRecordActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:199:9-202:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:201:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:202:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:200:13-76
+activity#com.vboss.okline.ui.contact.TransferAccounts.TransPaymentActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:203:9-207:66
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:205:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:207:13-64
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:206:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:204:13-77
+activity#com.vboss.okline.ui.contact.TransferAccounts.EditAccountActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:208:9-211:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:210:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:211:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:209:13-76
+activity#com.vboss.okline.ui.contact.TransferAccounts.SelectAccountActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:212:9-215:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:214:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:215:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:213:13-78
+activity#com.vboss.okline.ui.contact.TransferAccounts.IncomeTransRecordActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:216:9-219:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:218:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:219:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:217:13-82
+activity#com.vboss.okline.ui.contact.group.EditGroupActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:220:9-223:67
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:222:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:223:13-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:221:13-63
+activity#com.vboss.okline.ui.contact.ContactDetail.SendEmailActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:224:9-227:57
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:226:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:227:13-55
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:225:13-71
+activity#com.vboss.okline.ui.contact.myCard.ChooseAddressActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:228:9-231:67
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:230:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:231:13-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:229:13-68
+activity#com.vboss.okline.ui.contact.callPhone.DialActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:232:9-236:67
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:235:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:234:13-43
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:236:13-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:233:13-62
+activity#com.vboss.okline.ui.contact.callPhone.CallingActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:237:9-246:20
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:240:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:239:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:238:13-65
+intent-filter#android.intent.category.DEFAULT+com.vboss.okline.ui.contact.callPhone.CallingActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:241:13-245:29
+action#com.vboss.okline.ui.contact.callPhone.CallingActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:242:17-95
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:242:25-93
+category#android.intent.category.DEFAULT
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:244:17-75
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:244:27-73
+activity#com.vboss.okline.ui.contact.ChatSearchActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:247:9-250:67
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:249:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:250:13-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:248:13-58
+service#com.vboss.okline.ui.contact.callPhone.CallingService
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:253:9-71
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:253:18-69
+activity#com.vboss.okline.ui.contact.c2cPart.C2CmainActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:256:9-259:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:259:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:258:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:257:13-63
+activity#com.vboss.okline.ui.contact.c2cPart.C2CwaitingActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:260:9-276:20
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:263:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:262:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:261:13-66
+activity#com.vboss.okline.ui.contact.c2cPart.C2CsuccessActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:277:9-280:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:280:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:279:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:278:13-66
+activity#com.vboss.okline.ui.contact.search.SearchActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:283:9-285:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:285:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:284:13-61
+activity#com.vboss.okline.ui.user.UserActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:286:9-288:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:288:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:287:13-49
+meta-data#EASEMOB_APPKEY
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:292:9-294:53
+	android:value
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:294:13-51
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:293:13-42
+service#com.hyphenate.chat.EMChatService
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:296:9-298:38
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:298:13-36
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:297:13-60
+service#com.hyphenate.chat.EMJobService
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:299:9-302:71
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:301:13-36
+	android:permission
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:302:13-69
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:300:13-59
+receiver#com.hyphenate.chat.EMMonitorReceiver
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:304:9-314:20
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:304:19-70
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:305:13-309:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:306:17-79
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:306:25-77
+data
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:308:17-49
+	android:scheme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:308:23-47
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:310:13-313:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:311:17-78
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:311:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:312:17-76
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:312:25-74
+activity#com.hyphenate.easeui.ui.EaseShowBigImageActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:323:9-326:54
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:325:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:326:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:324:13-76
+activity#com.hyphenate.easeui.ui.EaseShowNormalFileActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:328:9-331:54
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:330:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:331:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:329:13-78
+activity#com.hyphenate.easeui.ui.EaseShowVideoActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:332:9-335:54
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:334:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:335:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:333:13-73
+activity#com.vboss.okline.ui.im.ChatActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:337:9-341:54
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:340:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:339:13-44
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:341:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:338:13-47
+activity#com.hyphenate.easeui.ui.ImageGridActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:343:9-347:62
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:345:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:347:13-60
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:346:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:344:13-69
+activity#com.hyphenate.easeui.ui.RecorderVideoActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:348:9-352:62
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:350:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:352:13-60
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:351:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:349:13-73
+activity#com.hyphenate.easeui.ui.VoiceCallActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:354:9-358:50
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:357:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:356:13-44
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:358:13-48
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:355:13-69
+activity#com.hyphenate.easeui.ui.VideoCallActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:360:9-365:54
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:364:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:363:13-44
+	android:configChanges
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:362:13-74
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:365:13-52
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:361:13-69
+activity#com.vboss.okline.jpush.JPushActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:368:9-372:64
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:371:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:370:13-48
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:372:13-62
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:369:13-48
+activity#com.vboss.okline.ui.card.ticket.CardTicketActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:375:9-377:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:377:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:376:13-62
+activity#com.vboss.okline.ui.card.recharge.CardRechargeActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:378:9-380:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:380:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:379:13-66
+activity#com.vboss.okline.ui.scanner.QRCodeActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:383:9-386:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:386:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:385:13-42
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:384:13-54
+receiver#com.vboss.okline.jpush.JPushReceiver
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:388:9-402:20
+	android:enabled
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:390:13-35
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:391:13-37
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:389:13-48
+intent-filter#cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.vboss.okline
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:392:13-401:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:393:17-78
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:393:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:394:17-82
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:394:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:395:17-87
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:395:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:396:17-85
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:396:25-83
+action#cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:397:17-91
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:397:25-89
+action#cn.jpush.android.intent.CONNECTION
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:398:17-76
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:398:25-74
+category#com.vboss.okline
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:400:17-60
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:400:27-58
+activity#com.vboss.okline.test.TestPhoneActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:404:9-407:74
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:406:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:407:13-72
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:405:13-51
+activity#com.vboss.okline.ui.user.PersonalInfoApprovalActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:408:9-410:38
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:410:13-36
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:409:13-65
+activity#com.vboss.okline.ui.record.search.RecordSearchActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:411:9-413:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:413:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:412:13-66
+activity#com.vboss.okline.ui.home.DownloadActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:414:9-61
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:414:19-59
+receiver#com.vboss.okline.ui.home.InitApkBroadCastReceiver
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:416:9-429:20
+	android:enabled
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:418:13-35
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:419:13-36
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:417:13-61
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REPLACED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:420:13-425:29
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:421:17-80
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:421:25-78
+action#android.intent.action.PACKAGE_ADDED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:422:17-77
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:422:25-75
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:426:13-428:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:427:17-83
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:427:25-81
+provider#android.support.v4.content.FileProvider
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:431:9-439:20
+	android:authorities
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:433:13-64
+	android:grantUriPermissions
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:435:13-47
+	android:exported
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:434:13-37
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:432:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:436:13-438:53
+	android:resource
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:438:17-51
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:437:17-67
+activity#com.vboss.okline.ui.contact.TransferAccounts.SelectBankActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:441:9-444:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:443:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:444:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:442:13-75
+activity#com.vboss.okline.ui.contact.TransferAccounts.SearchBankActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:445:9-448:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:447:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:448:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:446:13-75
+activity#com.okline.vboss.assistant.ui.MainActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:451:9-454:46
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:453:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:454:13-44
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:452:13-70
+activity#com.okline.vboss.assistant.ui.recharge.CardRechargeActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:455:9-459:65
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:458:13-49
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:457:13-48
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:459:13-63
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:456:13-87
+activity#com.okline.vboss.assistant.ui.opencard.UploadCardActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:460:9-463:55
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:462:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:463:13-53
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:461:13-85
+activity#com.okline.vboss.assistant.ui.opay.OPaySDKActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:464:9-467:74
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:466:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:467:13-72
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:465:13-78
+activity#com.okline.vboss.assistant.ui.notice.CardNoticeActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:468:9-471:58
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:470:13-49
+	android:theme
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:471:13-56
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:469:13-83
+service#com.vboss.okline.ui.home.download.DownLoadService
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:476:9-68
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:476:18-66
+activity#com.vboss.okline.ui.express.ExpressActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:478:9-481:66
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:480:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:481:13-64
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:479:13-55
+activity#com.vboss.okline.ui.express.ExpressChooseAddressActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:482:9-484:51
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:484:13-49
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:483:13-68
+activity#com.vboss.okline.ui.transAccount.TransMainActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:485:9-487:67
+	android:screenOrientation
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:486:13-49
+	android:windowSoftInputMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:487:13-65
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:485:19-68
+activity#com.vboss.okline.ui.user.files.MyPhotosActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:488:9-491:20
+	android:launchMode
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:490:13-48
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:489:13-59
+activity#com.vboss.okline.ui.user.files.MyFilesActivity
+ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:492:9-493:20
+	android:name
+		ADDED from F:\OKLine\7-9\trunk\app\src\main\AndroidManifest.xml:492:19-64
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\WZM\.android\build-cache\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\WZM\.android\build-cache\9d651a59b08900f0893b2088d721058b136bb88b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\WZM\.android\build-cache\f2edc8df2b77abba34907b1248f4b2b2d7f514a9\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\WZM\.android\build-cache\b9b39cbc3a065882c53e418638b96eb33613e505\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\WZM\.android\build-cache\d3fa08fc3d06ec7f6b87af121d16604555e2093f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\WZM\.android\build-cache\0abf29681670fd35b52d87496b8ccd6449614c24\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\WZM\.android\build-cache\a5bd305a4ac9dca477e3f32ab730325e9bc2d6f0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\WZM\.android\build-cache\382dfb545a3fdc4d3a704472a73886776e95fe7d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\WZM\.android\build-cache\ddd5af3ac123f4aeb9bf3ac57c476cc0ec694739\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\WZM\.android\build-cache\679d71db8b94df980af883e8fd352c8787dc6da0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\WZM\.android\build-cache\bbd4ab7794797c8412c358727248d7e4cd5539db\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\WZM\.android\build-cache\e5393a6a11f1cec1c2a7d049cab51d4d08c671c3\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\WZM\.android\build-cache\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\WZM\.android\build-cache\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\output\AndroidManifest.xml:26:9-47
+permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:12:9-65
+uses-permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:30:22-75
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:34:5-89
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:34:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:35:22-76
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:40:9-43:52
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:41:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:46:9-57:20
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:49:13-37
+	android:configChanges
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:48:13-63
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:47:13-60
+intent-filter#${JPUSH_PKGNAME}+android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:51:13-56:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:52:17-75
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:52:25-72
+category#${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:55:17-61
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:55:27-58
+service#cn.jpush.android.service.DownloadService
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:59:9-62:40
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:61:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:60:13-68
+service#cn.jpush.android.service.PushService
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:66:9-77:19
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:68:13-35
+	android:process
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:70:13-40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:67:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:71:13-76:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:72:17-75
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:72:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:73:17-73
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:73:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:74:17-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:74:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:75:17-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:75:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:81:9-90:19
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:83:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:84:13-36
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:82:13-66
+intent-filter#${JPUSH_PKGNAME}+cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:85:13-89:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:86:17-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:86:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:93:9-113:20
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:95:13-35
+	android:process
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:97:13-40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:96:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:94:13-65
+intent-filter#${JPUSH_PKGNAME}+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:98:13-101:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:98:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:99:17-94
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:99:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:102:13-105:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:104:17-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:104:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:107:13-112:29
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:116:9-118:40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:117:13-66
+meta-data#JPUSH_CHANNEL
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:121:9-123:48
+	android:value
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:123:13-45
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:122:13-41
+meta-data#JPUSH_APPKEY
+ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:124:9-126:47
+	android:value
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:126:13-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\WZM\.android\build-cache\00ac7c0874c3d45346f31c88c09e34d0e673e0f7\output\AndroidManifest.xml:125:13-40
+uses-permission#android.permission.READ_SETTINGS
+ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:21:22-69
+activity#com.alibaba.wireless.security.framework.SGProxyActivity
+ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:28:13-83
+intent-filter#android.intent.category.DEFAULT+com.wireless.security.open.framework.DLProxyActivity.VIEW
+ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:31:13-35:29
+action#com.wireless.security.open.framework.DLProxyActivity.VIEW
+ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:32:17-100
+	android:name
+		ADDED from [:SecurityGuardSDK-external-release-5.3.38:] C:\Users\WZM\.android\build-cache\2844c6fd73860bc8a0f251e7a835ebc78e5fe6fd\output\AndroidManifest.xml:32:25-97
+activity#com.alibaba.security.biometrics.face.auth.FaceLivenessActivity
+ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:16:9-21:20
+	android:screenOrientation
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:19:13-49
+	android:hardwareAccelerated
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:18:13-47
+	android:taskAffinity
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:20:13-80
+	android:name
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:17:13-90
+activity#com.alibaba.security.biometrics.face.auth.FaceCaptchaActivity
+ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:22:9-27:20
+	android:screenOrientation
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:25:13-49
+	android:hardwareAccelerated
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:24:13-47
+	android:taskAffinity
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:26:13-80
+	android:name
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:23:13-89
+activity#com.alibaba.security.biometrics.face.auth.view.FaceLivenessNavActitity
+ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:28:9-32:20
+	android:screenOrientation
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:30:13-49
+	android:taskAffinity
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:31:13-80
+	android:name
+		ADDED from [:FaceLivenessSDK-1.4.0.15:] C:\Users\WZM\.android\build-cache\de0e123724cd482566202225989573ff692fe376\output\AndroidManifest.xml:29:13-98
+activity#com.alibaba.security.rp.activity.RPTakePhotoActivity
+ADDED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:17:9-19:52
+	android:screenOrientation
+		ADDED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:18:13-80
+activity#com.alibaba.security.rp.activity.RPH5Activity
+ADDED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from [:rpsdk-1.5.0.0:] C:\Users\WZM\.android\build-cache\978758ef8968f7260c627e6071553822e9c578e2\output\AndroidManifest.xml:21:13-73
+service#com.cosw.sdkblecard.PlkBluetoothLeService
+ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:19:9-21:38
+	android:enabled
+		ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:21:13-35
+	android:name
+		ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:20:13-69
+service#com.cosw.sdkblecard.DfuService
+ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:24:9-33:19
+	android:label
+		ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:27:13-46
+	android:exported
+		ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:25:13-58
+intent-filter#android.intent.category.DEFAULT+no.nordicsemi.android.action.DFU_UPLOAD
+ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:28:13-32:29
+action#no.nordicsemi.android.action.DFU_UPLOAD
+ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [trunk:tsm:unspecified] F:\OKLine\7-9\trunk\tsm\build\intermediates\bundles\default\AndroidManifest.xml:29:25-79
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:29:9-32:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:31:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:32:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:33:9-35:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:34:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:37:9-49:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:39:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:41:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:40:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:38:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:50:9-56:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:54:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:53:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:56:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5] C:\Users\WZM\.android\build-cache\ea75154249d78873ad5526e3c27081f04b28c280\output\AndroidManifest.xml:51:13-93

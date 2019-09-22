@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/transparent"
+             android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_shape_card_notice_white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_shape_card_notice_top_gray">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/card_notice_card_info"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <ImageButton
+                android:id="@+id/ib_close"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:background="@color/transparent"
+                android:contentDescription="@string/card_notice_card_info"
+                android:src="@mipmap/ic_close"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="34dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_row_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tv_row_2"
+                style="@style/style_card_info"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_row_3"
+                style="@style/style_card_info"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tv_row_4"
+                style="@style/style_card_info"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_row_5"
+                style="@style/style_card_info"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_row_6"
+                style="@style/style_card_info"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_row_7"
+                style="@style/style_card_info"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f4f7" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="43dip"
+        android:background="#93cbee" >
+
+        <Button
+            android:id="@+id/face_nav_title_bar_back_button"
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/face_top_back" />
+
+        <Button
+            android:id="@+id/face_nav_title_bar_sound_button"
+            android:layout_width="25dip"
+            android:layout_height="23dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/face_top_sound_on" />
+    </RelativeLayout>
+
+<!--     <com.alibaba.security.biometrics.face.auth.widget.NavTitleBar
+        android:id="@+id/simple_action_capturerect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:navShowSoundButton="true" /> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="112dip"
+        android:text="@string/face_liveness_nav_tip_text"
+        android:textColor="#333333"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="173dip"
+        android:text="@string/face_liveness_nav_hint_text"
+        android:textColor="#666666"
+        android:textSize="12sp" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="163dip"
+        android:layout_height="260dip"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dip"
+        android:background="@drawable/face_nav" />
+
+    <Button
+        android:id="@+id/abface_nav_start"
+        android:layout_width="220dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dip"
+        android:background="@drawable/face_button_corner"
+        android:text="@string/face_liveness_nav_button_text"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/express_onTheWay_send_message_edit_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/send_message_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_5"
+            android:text="发快递信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <TextView
+            android:id="@+id/express_send_message_kd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_5"
+            android:text="圆通快递"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/express_send_message_kd_iv" />
+
+        <ImageView
+            android:id="@+id/express_send_message_kd_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/express_arrow_up" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/express_send_message_kd_tv"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="@dimen/common_margin_20"
+                android:layout_marginRight="@dimen/common_margin_5"
+                android:background="@color/dimgrey"></View>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/item_express_send_message_edit"></include>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:background="@color/bg"></View>
+    <!--下面这个是收快递信息-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:layout_marginTop="@dimen/common_margin_5"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/accept_message_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accept_information"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="@dimen/common_margin_5"
+        android:background="@color/app_line"></View>
+
+    <include layout="@layout/item_express_accept_message_edit"></include>
+
+    <View
+        android:id="@+id/express_message_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:layout_marginTop="@dimen/common_margin_5"
+        android:background="@color/bg"></View>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_pool_type_lables">
+        <item>@string/card_tab_common</item>
+        <item>@string/card_tab_member</item>
+        <item>@string/card_tab_bank</item>
+        <item>@string/card_tab_work</item>
+        <item>@string/card_tab_certificates</item>
+        <item>@string/card_tab_travel</item>
+        <item>@string/card_tab_access</item>
+    </string-array>
+
+    <string-array name="app_pool_type_drawables">
+        <item>@drawable/tab_card_common</item>
+        <item>@drawable/tab_card_member</item>
+        <item>@drawable/tab_card_bank</item>
+        <item>@drawable/tab_card_work</item>
+        <item>@drawable/tab_card_certificates</item>
+        <item>@drawable/tab_card_travel</item>
+        <item>@drawable/tab_card_access</item>
+    </string-array>
+    <string-array name="express_company">
+        <item>顺丰快递</item>
+        <item>韵达快递</item>
+        <item>中通快递</item>
+        <item>圆通快递</item>
+    </string-array>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4">
+
+    <LinearLayout
+        android:id="@+id/layout_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_card_margin_top"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/simpleDraweeView"
+                android:layout_width="@dimen/row_card_width"
+                android:layout_height="@dimen/row_card_height"
+                android:layout_gravity="center"
+                android:padding="4.5dp"
+                fresco:failureImage="@mipmap/image_card_default"
+                fresco:failureImageScaleType="centerCrop"
+                fresco:placeholderImage="@mipmap/image_card_default"
+                fresco:placeholderImageScaleType="centerCrop"
+                fresco:roundBottomLeft="true"
+                fresco:roundBottomRight="true"
+                fresco:roundTopLeft="true"
+                fresco:roundTopRight="true"
+                fresco:roundedCornerRadius="7dp"/>
+
+            <TextView
+                android:id="@+id/tv_card_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="17dp"
+                android:text="@string/card_cardNo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_14"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+
+        <View
+            android:id="@+id/row_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_card_margin_top"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/layout_card_identity"
+        layout="@layout/row_card_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+</FrameLayout>
+

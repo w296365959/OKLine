@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background">
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.vboss.okline.view.widget.ClearEditText
+        android:id="@+id/et_keyboard_top"
+        style="@style/inputStyle"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_below="@+id/toolbar_contact"
+        android:layout_margin="7dp"
+        android:background="@drawable/bg_search_input"
+        android:drawableLeft="@drawable/chat_search"
+        android:drawablePadding="7dp"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:hint="@string/text_phoneorname"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textCursorDrawable="@null"/>
+
+
+    <ListView
+        android:id="@+id/lv_chat_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_keyboard_top"
+        android:divider="@null"/>
+
+    <LinearLayout
+        android:id="@+id/ll_chat_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_no_localcontact"
+            android:textColor="@color/text_no_contact"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/bt_chat_now"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_contact_button_normal"
+            android:text="@string/invite_chat"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_noContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_no_localcontact2"
+        android:textColor="@color/text_no_contact"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

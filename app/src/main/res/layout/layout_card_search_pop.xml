@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="120dp"
+              android:layout_height="80dp"
+              android:background="@drawable/image_card_search_bg"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_pop_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/card_drop_down_scanner"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_pop_receivables"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:text="@string/card_drop_down_receivables"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+</LinearLayout>

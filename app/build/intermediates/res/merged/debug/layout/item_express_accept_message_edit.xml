@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/common_margin_10"
+    android:layout_marginTop="@dimen/margin_7"
+    android:layout_marginBottom="@dimen/margin_5"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/express_accept_user_edit_img"
+        android:layout_width="@dimen/height_40"
+        android:layout_height="@dimen/height_40"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_7"
+        android:layout_marginRight="@dimen/margin_13"
+        android:src="@mipmap/default_avatar"
+        fresco:placeholderImage="@mipmap/logo2"
+        fresco:roundBottomLeft="true"
+        fresco:roundBottomRight="true"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="true"
+        fresco:roundedCornerRadius="3dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/express_accept_name_edit_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="杨新"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <TextView
+            android:id="@+id/express_accept_number_edit_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13616535488"
+            android:textColor="@color/gray"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收快递地址:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+
+            <TextView
+                android:id="@+id/express_accept_address_edit_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="收货地址"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

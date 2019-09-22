@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_top_bar"
+    android:background="@color/okline_black"
+    android:gravity="center_vertical">
+    <!-- modify by luoxx 170607  修改聊天title-->
+    <RelativeLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/left_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_toolbar_back"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="10dip"/>
+    </RelativeLayout>
+
+    <!--  add by luoxiuxiu 170630 聊天界面添加logo状态 -->
+    <com.vboss.okline.ui.card.widget.LogoView
+        android:id="@+id/fragment_toolbar_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/left_layout"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <!--  add by luoxiuxiu 170627 聊天界面添加电量 -->
+    <com.vboss.okline.view.widget.OKCardView
+        android:id="@+id/ocardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/fragment_toolbar_logo"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:background="@drawable/ease_common_tab_bg">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/d_30"
+            android:layout_height="@dimen/d_30"
+            android:src="@drawable/logo_okline"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_logo"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="left"
+                    android:paddingLeft="5dip"
+                    android:text="测试"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:visibility="gone"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollHorizontally="true"
+                    android:text="@string/remark_username"
+                    android:textColor="@color/c_7F7F7F"
+                    android:paddingLeft="3dip"
+                    android:visibility="gone"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ease_tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:text="15220090821"
+                android:textColor="@color/c_7F7F7F"
+                android:visibility="gone"
+                android:textSize="@dimen/s_15" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/search_icon"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="5dip"/>-->
+
+    <RelativeLayout
+        android:id="@+id/right_layout"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside" />
+    </RelativeLayout>
+
+</RelativeLayout>

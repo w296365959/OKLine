@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f4f4f4"
+              android:orientation="vertical">
+
+    <include layout="@layout/app_search_bar"/>
+
+    <LinearLayout
+        android:id="@+id/layout_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_search_count"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_search_count_height"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingStart="7dp"
+            android:text="@string/card_search_btn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+    </LinearLayout>
+
+    <com.vboss.okline.ui.card.widget.SliderListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparent"
+        android:overScrollMode="never"
+        android:visibility="gone"/>
+
+    <!-- modify by wangshuai 2017-05-22 update refresh recyclerView style -->
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/refreshFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rl_card_log_query"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:visibility="gone"/>
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+
+</LinearLayout>

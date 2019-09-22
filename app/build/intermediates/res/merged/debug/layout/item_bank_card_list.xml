@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="7dp"
+    android:background="@android:color/white"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_bankcardicon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:background="@mipmap/img_card_default"
+        android:layout_width="55dp"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/iv_bankcardicon"
+        android:layout_marginLeft="6dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_bankcardid"
+                android:text="招商银行信用卡"
+                android:textColor="#737373"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:ellipsize="marquee"
+                android:lines="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/opaysdk_pospass"
+                android:id="@+id/tv_opaysdk_bankcard_busitype"
+                android:textColor="@color/opayStyleColor"
+                android:textSize="13sp"
+                android:layout_marginLeft="7.5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp">
+            <TextView
+                android:id="@+id/tv_opaysdk_bankcard_tailno"
+                android:text="6225****6989"
+                android:textColor="#999999"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_opaysdk_bankcard_discount"
+                android:layout_marginStart="5dp"
+                android:text="中信支付可享受95折优惠"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:background="#b71010"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_selected"
+        android:src="@mipmap/checked"
+        android:layout_alignParentRight="true"
+        android:visibility="visible"
+        android:foregroundTintMode="screen"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

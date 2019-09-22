@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tsm</string>
+
+    <string name="bt_connection_error">蓝牙连接失败</string>
+    <string name="pin_verification_error">Pin码验证失败</string>
+    <string name="card_app_install_error">卡应用安装失败</string>
+    <string name="invalid_bt_address">无效的蓝牙地址</string>
+</resources>

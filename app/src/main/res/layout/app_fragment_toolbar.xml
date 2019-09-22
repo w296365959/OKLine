@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionBarSize"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:id="@+id/action_back_layout"
+        android:layout_width="34dp"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <ImageButton
+            android:id="@+id/action_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="7dp"
+            android:background="@color/transparent"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_toolbar_back"/>
+
+    </RelativeLayout>
+
+
+    <!-- modify by wangshuai 2017-06-06 update logo close to the left -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/action_back_layout"
+        android:layout_toStartOf="@+id/action_menu_layout"
+        android:orientation="horizontal">
+
+        <!-- modify by wangshuai 2017-06-20 Added logoView -->
+        <com.vboss.okline.ui.card.widget.LogoView
+            android:id="@+id/fragment_toolbar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Added by wangshuai 2017-06-21 battery capacity view -->
+        <com.vboss.okline.view.widget.OKCardView
+            android:id="@+id/ocardView"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/fragment_toolbar_logo"
+            />
+
+        <TextView
+            android:id="@+id/action_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/actionBarTitleSize"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/action_menu_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:paddingStart="@dimen/margin_5"
+        >
+
+        <ImageButton
+            android:id="@+id/action_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:background="@color/transparent"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_search"
+            android:visibility="visible"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

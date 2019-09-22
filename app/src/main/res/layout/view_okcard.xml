@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="37dp"
+        android:layout_height="26dp"
+        android:background="@mipmap/okcard_background">
+        
+        <RelativeLayout
+            android:id="@+id/rl_battery_outline"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@mipmap/battery_outline"
+            android:layout_width="20dp"
+            android:padding="2dp"
+            android:layout_height="12dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume0"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume6"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume8"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_battery_volume9"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="5sp"
+                android:text=""
+                android:id="@+id/tv_battery"
+                android:background="@color/transparent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:src="@mipmap/charging"
+            android:layout_toEndOf="@id/rl_battery_outline"
+            android:id="@+id/iv_charging"
+            android:layout_marginStart="3dp"
+            android:scaleY="1.2"
+            android:scaleX="1.2"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

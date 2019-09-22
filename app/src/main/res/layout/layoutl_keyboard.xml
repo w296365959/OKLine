@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 输入键盘 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_dial_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/keyboard_et_height"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/et_keyboard_top"
+                style="@style/dial_inputStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dial_keyboard_item_bg"
+                android:gravity="center"
+                android:maxLength="15"
+                android:maxLines="1"/>
+            <LinearLayout
+                android:id="@+id/tv_delete_phoneNum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@mipmap/keyboard_delete_img"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/gv_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bdbdbd"
+            android:horizontalSpacing="1px"
+            android:numColumns="3"
+            android:verticalSpacing="1px" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#bdbdbd"/>
+
+        <LinearLayout
+            android:id="@+id/keyboard_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/keyboard_item_height"
+            android:background="@color/dial_keyboard_item_bg"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/call_phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/call_phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/keyboard_return"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/keyboard_return" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

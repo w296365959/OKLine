@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_fragment_toolbar_v2" />
+
+    <LinearLayout
+        android:id="@+id/ll_card_open_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_card_opening_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="6dp"
+            android:drawableRight="@mipmap/ic_card_open_logo"
+            android:gravity="bottom"
+            android:text="@string/card_open_success"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dialog_card_default_size"
+            android:visibility="gone" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_card_open"
+            android:layout_width="@dimen/card_img_width"
+            android:layout_height="@dimen/card_img_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/background_e4e4e4" />
+
+        <LinearLayout
+            android:id="@+id/ll_card_open_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_open_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_open_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+
+            <TextView
+                android:id="@+id/tv_open_card_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/card_open_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_card_open_line" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_card_opening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_card_opening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:text="@string/card_opening"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dialog_card_default_size" />
+
+        <com.vboss.okline.ui.user.customized.LoadingView
+            android:id="@+id/lv_open_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_card_opening_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="开卡可能需要几分钟时间，请耐心等候" />
+
+    <LinearLayout
+        android:id="@+id/ll_card_open_fail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="30dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/payment_fail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="开卡失败！"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_card_open_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="失败原因：网络异常，相关开卡费用将在7个工作日内返还至您的支付卡中" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tv_card_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/shape_card_open_green"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="@string/card_recharge"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_14"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_card_look"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/background_000"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="@string/card_look"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_14"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:textColor="@color/black"
+        android:textSize="14.5sp"
+        android:text="@string/app_name"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.vboss.okline.ui.user.customized.LoadingView
+        android:id="@+id/loadingview"
+        android:layout_toRightOf="@id/text"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/oklinelogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:src="@drawable/logo3" />
+
+        <TextView
+            android:id="@+id/text_nonavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="start"
+            android:text="@string/nonavailable"
+            android:textColor="@color/black"
+            android:textSize="14.5sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

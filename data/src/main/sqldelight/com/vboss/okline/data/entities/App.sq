@@ -1,0 +1,20 @@
+
+CREATE TABLE App(
+    appId INTEGER NOT NULL PRIMARY KEY,
+    appName TEXT,
+    appType INTEGER as integer not null,
+    appIcon TEXT,
+    openUrl TEXT,
+    apkUrl TEXT,
+    isFollow INTEGER AS integer not null default 0,
+    shortShow INTEGER as integer not null,
+    componentName TEXT,
+    isDownload INTEGER AS Short not null DEFAULT 0,
+    localVersionCode INTEGER AS integer not null default 0,
+    versionCode INTEGER AS integer not null default 0,
+    versionName TEXT,
+    versionLog TEXT
+);
+
+DROP_TABLE:
+DROP TABLE IF EXISTS App;

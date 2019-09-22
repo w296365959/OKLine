@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="A"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+
+    <View
+        android:id="@+id/item_underline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="@color/divider_color"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_item_height"
+        android:background="@drawable/settings_item_selector">
+        <!--<CheckBox
+            android:id="@+id/checkbox_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/selector_checkbox"
+            android:focusable="false"
+            android:visibility="gone"/>-->
+
+        <ImageView
+            android:id="@+id/checkbox_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/checkbox_normal"
+            android:visibility="gone"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="@dimen/contact_item_avatar_width"
+            android:layout_height="@dimen/contact_item_avatar_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_toRightOf="@+id/checkbox_item"
+            android:src="@mipmap/default_avatar"
+            fresco:placeholderImage="@mipmap/default_avatar"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true"
+            fresco:roundedCornerRadius="3dp"/>
+        <!--<ImageView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="@dimen/contact_item_avatar_width"
+            android:layout_height="@dimen/contact_item_avatar_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="7dp"
+            android:layout_toRightOf="@+id/checkbox_item"
+            android:src="@mipmap/default_avatar"/>-->
+        <RelativeLayout
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/checkbox_item">
+            <ImageView
+                android:id="@+id/iv_contact_ischeck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                 />
+
+        </RelativeLayout>
+
+
+        <!--modify by linzhangbin 2017/7/4 限制长度为24个字符-->
+        <TextView
+            android:id="@+id/tv_contact_name"
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/iv_contact_avatar"
+            android:ellipsize="end"
+            android:maxEms="12"
+            android:singleLine="true" />
+        <!--modify by linzhangbin 2017/7/4 限制长度为24个字符-->
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_contact_avatar"/>
+
+        <TextView
+            android:id="@+id/tv_contact_real_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_contact_name"
+            android:layout_toEndOf="@+id/iv_contact_avatar"
+            android:singleLine="true"
+            android:textColor="@color/contacts_card_phoneNum"
+            android:textSize="13sp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/item_bottom_line"
+        style="@style/underline_no_margin"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_item_height">
+
+        <TextView
+            android:id="@+id/receiver"
+            style="@style/Text_14sp_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="收件人："/>
+
+        <EditText
+            android:id="@+id/et_recipients"
+            style="@style/inputStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/receiver"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/receiver_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/add_green"/>
+    </RelativeLayout>
+    <View
+        style="@style/underline_margin10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_item_height">
+
+        <TextView
+            style="@style/Text_14sp_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="抄　送："/>
+
+        <EditText
+            style="@style/inputStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"/>
+    </LinearLayout>
+
+    <View
+        style="@style/underline_margin10"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_item_height">
+
+        <TextView
+            android:id="@+id/main_object"
+            style="@style/Text_14sp_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="主　题："/>
+
+        <EditText
+            style="@style/inputStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/main_object"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/accessory_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/accessory"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/turn_back"
+        android:layout_width="260dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_preferences"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/default_avatar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="照片.jpg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@mipmap/accessary_cancel"
+            android:text="336.1KB"/>
+
+    </LinearLayout>
+    <View
+        style="@style/underline_margin10"/>
+
+    <ListView
+        android:id="@+id/lv_choose_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            style="@style/Text_14sp_grey"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_item_height"
+            android:gravity="center_vertical"
+            android:text="邮件内容"/>
+        <EditText
+            style="@style/inputStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_search_bar"/>
+
+    <LinearLayout
+        android:id="@+id/layout_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_search_count"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_search_count_height"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingStart="7dp"
+            android:text="@string/search"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"/>
+
+</LinearLayout>

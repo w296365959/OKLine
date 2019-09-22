@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\stop_download.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\stop_download.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_no_background.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_no_background.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\start_download.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\start_download.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\start_download.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\start_download.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\stop_download.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\stop_download.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_round.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_no_background.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_no_background.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

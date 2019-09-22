@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" >-->
+
+        <!--<com.alibaba.security.biometrics.face.auth.widget.CameraSurfaceView-->
+            <!--android:id="@+id/abface_camera_surfaceview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center"/>-->
+    <!--</FrameLayout>-->
+
+    <!--&lt;!&ndash;-->
+         <!--<include-->
+        <!--android:id="@+id/face_detect_upload"-->
+        <!--layout="@layout/simple_pattern_upload"-->
+        <!--android:visibility="gone" />-->
+    <!--&ndash;&gt;-->
+
+    <!--<ViewStub-->
+        <!--android:id="@+id/face_detect_upload"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout="@layout/face_upload" />-->
+
+    <!--<include-->
+        <!--android:id="@+id/face_detect_action"-->
+        <!--layout="@layout/face_action" />-->
+
+    <!--<include-->
+        <!--android:id="@+id/face_detect_titlebar"-->
+        <!--layout="@layout/face_action_titlebar" />-->
+
+</RelativeLayout>

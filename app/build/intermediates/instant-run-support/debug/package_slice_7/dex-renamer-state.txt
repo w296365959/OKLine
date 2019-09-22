@@ -1,0 +1,4 @@
+#Sat Jun 30 20:14:09 CST 2018
+base.0=F\:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=F\:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

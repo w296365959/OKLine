@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vboss.okline.ui.card.widget.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_card_margin_top"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_default"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:gravity="center_vertical|start"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_card_set_default"/>
+
+                <TextView
+                    android:id="@+id/tv_card_set_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/card_set_default"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_pay"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:gravity="center|start"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_card_pay"/>
+
+                <TextView
+                    android:id="@+id/tv_card_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/card_pay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_card_margin_top"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simpleDraweeView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/row_card_margin_left"
+            android:layout_marginRight="@dimen/row_card_margin_left"
+            android:orientation="vertical"
+            fresco:placeholderImage="@mipmap/img_card_default"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true"
+            fresco:roundWithOverlayColor="#f4f4f4"
+            fresco:roundedCornerRadius="10dp"/>
+
+
+    </LinearLayout>
+
+
+</com.vboss.okline.ui.card.widget.SwipeLayout>
+

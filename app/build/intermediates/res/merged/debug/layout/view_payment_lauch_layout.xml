@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="选择支付通道"
+        android:padding="7dp"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="7dp">
+
+        <ImageView
+            android:layout_width="@dimen/checkbox_size"
+            android:layout_height="@dimen/checkbox_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:src="@mipmap/tag_selected" />
+
+        <ImageView
+            android:layout_width="@dimen/logo_btn_size"
+            android:layout_height="@dimen/logo_btn_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:src="@mipmap/logo_union" />
+
+        <ImageView
+            android:layout_width="@dimen/checkbox_size"
+            android:layout_height="@dimen/checkbox_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:src="@mipmap/tag_un_selected" />
+
+        <ImageView
+            android:layout_width="@dimen/logo_btn_size"
+            android:layout_height="@dimen/logo_btn_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:src="@mipmap/alipay_logo" />
+
+        <ImageView
+            android:layout_width="@dimen/checkbox_size"
+            android:layout_height="@dimen/checkbox_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:src="@mipmap/tag_un_selected" />
+
+        <ImageView
+            android:layout_width="@dimen/logo_btn_size"
+            android:layout_height="@dimen/logo_btn_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:src="@mipmap/logo_wechat" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_no_valid_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableStart="@mipmap/ic_card_recharge"
+            android:text="支付卡"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="无支付卡"
+            android:textColor="@color/darker_gray" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lv_bankaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f4f4f4"
+        android:visibility="gone"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

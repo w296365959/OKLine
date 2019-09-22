@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionBarSize"
+    android:background="@android:color/black"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:navigationIcon="@drawable/ic_status_back"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:titleTextColor="@android:color/white">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_logo"
+        android:layout_width="@dimen/actionBar_logo_width"
+        android:layout_height="@dimen/actionBar_logo_height"
+        app:actualImageScaleType="fitCenter"
+        app:placeholderImage="@mipmap/logo"
+        android:layout_marginBottom="12dp"
+        app:placeholderImageScaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/action_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="3dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/actionBarTitleSize"/>
+
+
+    <ImageButton
+        android:id="@+id/action_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_search"
+        android:visibility="gone"
+        />
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionBarTitleSize">16sp</dimen>
+    <dimen name="actionBarSize">44dp</dimen>
+    <dimen name="margin_5">7dp</dimen>
+    <dimen name="navigationBarSize">47dp</dimen>
+
+    <dimen name="tabTextSize">10sp</dimen>
+    <dimen name="tabCardSize">55dp</dimen>
+    <dimen name="contact_item_height">54dp</dimen>
+    <dimen name="dialog_add_width">120dp</dimen>
+    <dimen name="contact_dialog_add_height">52dp</dimen>
+    <dimen name="card_tab_width">75dp</dimen>
+    <dimen name="card_tab_height">82dp</dimen>
+    <dimen name="row_card_margin_left">40dp</dimen>
+    <dimen name="row_card_margin_top">13dp</dimen>
+    <dimen name="textSize_14">14sp</dimen>
+    <dimen name="card_swipe_margin_left">20dp</dimen>
+    <dimen name="textSize_12">12sp</dimen>
+    <dimen name="action_search_size">230dp</dimen>
+    <dimen name="card_search_count_height">37dp</dimen>
+    <dimen name="edit_remark_height">40dp</dimen>
+
+    <dimen name="dialog_card_default_top">23dp</dimen>
+    <dimen name="dialog_card_default_size">16sp</dimen>
+    <dimen name="dialog_card_default_height">50dp</dimen>
+    <dimen name="dialog_card_default_width">334dp</dimen>
+    <dimen name="card_open_info_item_height">40dp</dimen>
+    <dimen name="card_open_info_margin_left">6dp</dimen>
+    <dimen name="card_open_info_size">15sp</dimen>
+    <dimen name="card_img_width">280dp</dimen>
+    <dimen name="card_img_height">180dp</dimen>
+    <dimen name="card_pay_img_height">198dp</dimen>
+    <dimen name="card_pay_img_width">316dp</dimen>
+    <dimen name="card_pay_title_tip_size">20sp</dimen>
+    <dimen name="actionBar_logo_width">26dp</dimen>
+    <dimen name="actionBar_logo_height">28dp</dimen>
+
+
+    <!-- =================== -->
+    <!-- POS purchase order dimen begin -->
+    <!-- =================== -->
+    <dimen name="text_size_30">15sp</dimen>
+    <dimen name="margin_28">8dp</dimen>
+    <dimen name="text_size_22">11sp</dimen>
+    <dimen name="margin_36">18dp</dimen>
+    <dimen name="margin_38">16dp</dimen>
+    <dimen name="text_size_34">17sp</dimen>
+    <dimen name="margin_16">2dp</dimen>
+    <dimen name="margin_24">12dp</dimen>
+    <dimen name="text_size_36">18sp</dimen>
+    <dimen name="margin_178">89dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_to_top_line">9dp</dimen>
+    <dimen name="margin_to_top_line_1">10dp</dimen>
+    <dimen name="margin_28_1">5dp</dimen>
+    <dimen name="margin_28_2">9dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_line_height">1.5dp</dimen>
+    <dimen name="dialog_single_width">344dp</dimen>
+    <dimen name="row_card_width">284.5dp</dimen>
+    <dimen name="row_card_height">180.5dp</dimen>
+    <!-- =================== -->
+    <!-- POS purchase order dimen end -->
+    <!-- =================== -->
+
+    <dimen name="dialog_date_margin_top">16dp</dimen>
+    <dimen name="dialog_date_margin_bottom">2dp</dimen>
+    <!-- card log image -->
+    <dimen name="card_log_image_width">110.6dp</dimen>
+    <dimen name="card_log_image_height">72.6dp</dimen>
+
+
+    <!--app模块-->
+    <!--App主界面-->
+    <dimen name="app_actionBar_height">44dp</dimen>
+    <dimen name="app_actionBar_updateImg_marginLeft">7dp</dimen>
+    <dimen name="app_img_margin_name">6dp</dimen>
+    <dimen name="app_name_marginBottom">18dp</dimen>
+    <dimen name="app_item_wight">90dp</dimen>
+
+    <!--app主界面九宫格列表部分-->
+    <dimen name="app_jiugongge_wight">108dp</dimen>
+    <dimen name="app_jiugongge_item_wight">60dp</dimen>
+    <dimen name="app_jiugongge_item_marginTop">10dp</dimen>
+
+    <!--App jiugongge dialog-->
+    <dimen name="add_star_dialog_width">111dp</dimen>
+    <dimen name="add_star_dialog_height">86dp</dimen>
+    <dimen name="cancle_star_dialog_width">64dp</dimen>
+    <dimen name="add_star_title">24dp</dimen>
+    <dimen name="add_star_title_img">13dp</dimen>
+    <dimen name="add_star_title_name">10sp</dimen>
+    <dimen name="add_star_title_img_marginleft">5dp</dimen>
+    <dimen name="add_star_title_name_marginleft">4dp</dimen>
+    <dimen name="add_star_star_marginleft">21dp</dimen>
+    <dimen name="add_star_star_name_margin">8dp</dimen>
+    <dimen name="add_star_star_delete_margin">26dp</dimen>
+    <dimen name="add_star_delete_marginright">21dp</dimen>
+    <dimen name="add_star__white_height">62dp</dimen>
+
+    <!--App pool-->
+    <dimen name="app_pool_newApp_marginTop">11dp</dimen>
+    <dimen name="app_pool_newApp_title_marginLeft">7dp</dimen>
+    <dimen name="app_pool_newApp_title_name">14sp</dimen>
+    <dimen name="app_pool_newApp_title_height">37dp</dimen>
+    <dimen name="app_pool_type_title_marginTop">14dp</dimen>
+    <dimen name="app_pool_type_item_height">44dp</dimen>
+    <dimen name="app_pool_type_item_marginLeft">12dp</dimen>
+    <dimen name="app_pool_type_name_marginLeft">8dp</dimen>
+    <dimen name="app_pool_newApp_name_marginBottom">17dp</dimen>
+    <dimen name="app_pool_newApp_img_marginTop">13dp</dimen>
+    <dimen name="app_pool_newApp_name_marginTop">9dp</dimen>
+    <dimen name="app_pool_newApp_img_height">53dp</dimen>
+
+    <dimen name="app_card_name">14sp</dimen>
+    <dimen name="app_card_mer_name">12sp</dimen>
+    <dimen name="app_card_mername_marginTop">9dp</dimen>
+    <dimen name="my_card_height">54dp</dimen>
+    <dimen name="my_card_avatar_width">40dp</dimen>
+    <dimen name="my_card_avatar_height">40dp</dimen>
+    <dimen name="card_line_height">0.3dp</dimen>
+    <dimen name="text_item_height">44dp</dimen>
+    <dimen name="add_button_topmargin">67dp</dimen>
+    <dimen name="add_button_width">330dp</dimen>
+    <dimen name="add_button_height">40dp</dimen>
+    <dimen name="keyboard_item_height">87dp</dimen>
+    <dimen name="keyboard_et_height">64dp</dimen>
+    <dimen name="ipss8_call_avatar_width">120dp</dimen>
+    <dimen name="ipss8_layout_avatar_width">144dp</dimen>
+    <dimen name="ipss8_call_avatar_height">120dp</dimen>
+    <dimen name="ipss8_layout_avatar_height">132dp</dimen>
+    <dimen name="ipss8_call_avatar_margintop">18dp</dimen>
+    <dimen name="ipss8_name_marginTop">15dp</dimen>
+    <dimen name="ipss8_relatinship_margintop">10dp</dimen>
+    <dimen name="ipss8_layout_margintop">20dp</dimen>
+    <dimen name="ipss8_layout_marginleft">30dp</dimen>
+    <dimen name="arcview_margin">7dp</dimen>
+    <dimen name="margin_302">302dp</dimen>
+    <dimen name="margin_478">478dp</dimen>
+    <dimen name="margin_16_xx">16dp</dimen>
+    <dimen name="text_size_40">26sp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="width_qr_code">300dp</dimen>
+    <dimen name="width_bar_code">600dp</dimen>
+    <dimen name="height_bar_code">50dp</dimen>
+    <!--express-->
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_47">47dp</dimen>
+    <dimen name="height_44">44dp</dimen>
+    <dimen name="height_60">60dp</dimen>
+    <dimen name="width_86">86dp</dimen>
+    <dimen name="height_26">26dp</dimen>
+    <dimen name="height_48">48dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+
+</resources>

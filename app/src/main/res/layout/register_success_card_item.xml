@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView android:id="@+id/tv_card_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dip"
+                android:background="@drawable/approve_icon"
+                android:drawablePadding="5dip"
+                android:gravity="center"
+                android:textColor="@color/c_C94900"
+                android:textSize="15sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView android:id="@+id/title_item_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="语音通话"
+                    android:gravity="left"
+                    android:textColor="@color/c_C94900"
+                    android:background="@null"
+                    android:textSize="15sp" />
+                <TextView android:id="@+id/tv_success_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success_card_bank"
+                    android:textColor="@color/c_838383"
+                    android:background="@null"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button android:id="@+id/detail_btn"
+            android:layout_width="45dip"
+            android:layout_height="25dip"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/detail_btn"
+            android:gravity="center"
+            android:text="@string/detail_text"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CFCFCF" />
+</LinearLayout>

@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading_rotation.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\loading_rotation.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in2.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bigalpha.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\bigalpha.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_scan_line_trans.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_scan_line_trans.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_alpha.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_step_alpha.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\smallalpha.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\smallalpha.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_scale.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_step_scale.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\366ef612cf185e3b1b6b0e4a06ab1441ace74232\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_left.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\366ef612cf185e3b1b6b0e4a06ab1441ace74232\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_scan_line_trans.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_scan_line_trans.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\smallalpha.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\smallalpha.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_steptext_trans_out.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_steptext_trans_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\contact_botton_anim.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\contact_botton_anim.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_trans.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_step_trans.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_left.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_alpha_repeater.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_alpha_repeater.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_steptext_trans_in.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_steptext_trans_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_steptext_trans_out.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_steptext_trans_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_alpha_repeater.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_alpha_repeater.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_nav_movein.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_nav_movein.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading_rotation.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\loading_rotation.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_alpha_shotcut.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_alpha_shotcut.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\366ef612cf185e3b1b6b0e4a06ab1441ace74232\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\contact_botton_anim.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\contact_botton_anim.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_scale.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_step_scale.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\366ef612cf185e3b1b6b0e4a06ab1441ace74232\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_alpha_shotcut.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_alpha_shotcut.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_nav_movein.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_nav_movein.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_steptext_trans_in.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_steptext_trans_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_alpha.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_step_alpha.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_trans.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_step_trans.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\2fc93cacf9e6b90a1314acbc954a6cf0f4a0f065\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading_rotation_clockwise.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\loading_rotation_clockwise.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\push_top_in2.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bigalpha.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\anim\\bigalpha.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\366ef612cf185e3b1b6b0e4a06ab1441ace74232\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\366ef612cf185e3b1b6b0e4a06ab1441ace74232\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_rotate.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\b0dc2d32adda81836f7c2f0c09716ed4f8971a3f\\output\\res\\anim\\anim_face_step_rotate.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\loading_rotation_clockwise.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\anim\\loading_rotation_clockwise.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\default\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_face_step_rotate.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\de0e123724cd482566202225989573ff692fe376\\output\\res\\anim\\anim_face_step_rotate.xml"
+    }
+]

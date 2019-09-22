@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hx_add_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vboss.okline.ui.record.HxAddTestActivity">
+    <EditText
+        android:id="@+id/et_main_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="想添加的人"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip14"/>
+    <Button
+        android:id="@+id/btn_talk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="和他聊天"/>
+</LinearLayout>

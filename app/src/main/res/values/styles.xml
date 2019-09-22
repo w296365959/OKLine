@@ -1,0 +1,270 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+    <!-- Contacts part -->
+    <style name="Contacts_add_dialog_textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="customdialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="AppTheme.Translucent" parent="AppTheme">
+        <item name="android:windowBackground">@color/frame_layout_color</item>
+        <item name="android:windowIsTranslucent">true</item><!--activity窗口具有透明属性-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent
+        </item><!--activity窗口切换效果-->
+    </style>
+    <!-- Added by wangshuai 201-06-15 推送activity style-->
+    <style name="AppTheme.Translucent.JPush" parent="AppTheme">
+        <item name="android:windowBackground">@color/frame_layout_color</item>
+        <item name="android:windowIsTranslucent">true</item><!--activity窗口具有透明属性-->
+        <item name="android:windowAnimationStyle">@null</item><!--activity窗口切换效果-->
+    </style>
+
+    <style name="firstpagedialog">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/firtpagedialog</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#000</item>
+    </style>
+
+    <style name="Text_14sp_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Text_14sp_grey">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/contacts_card_phoneNum</item>
+    </style>
+
+    <style name="Text_10sp_hint">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/content_text_color</item>
+    </style>
+
+    <style name="underline_margin10">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="underline_margin7">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+    </style>
+
+    <style name="underline_no_margin">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+
+    <style name="tv_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="inputStyle">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textColorHint">#cccccc</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dial_inputStyle">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/button_green</item>
+        <item name="android:textColorHint">#cccccc</item>
+        <item name="android:textSize">26sp</item>
+
+    </style>
+
+    <!-- ===================  -->
+    <!-- pos purchase order style -->
+    <!-- ===================  -->
+    <style name="style_pos_ticket_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_30</item>
+        <item name="android:textColor">@color/color_pos_ticket</item>
+        <item name="android:layout_marginTop">@dimen/margin_28</item>
+    </style>
+
+    <style name="line_gray_vertical">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:background">@color/divider_list</item>
+    </style>
+
+    <style name="line_gray_horizontal">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/divider_list</item>
+    </style>
+
+    <style name="line_gray_light_horizontal">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/grey_light</item>
+    </style>
+
+    <style name="record_item_text_flag">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="calling_bottom_ll">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="calling_icon_container">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="calling_icon_image">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="calling_icon_image_bottom">
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_width">64dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="calling_icon_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <!-- 重新主题去掉activity切换的动画效果  -->
+    <style name="My_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/My_Animation</item>
+    </style>
+
+    <style name="My_Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+
+    </style>
+
+    <!--  ********* card transfer ***********   -->
+    <!-- card transfer button style -->
+    <style name="style_card_transfer_btn_pay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- card transfer money text style-->
+    <style name="style_card_transfer_money">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#fe6700</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!-- card transfer line style -->
+    <style name="style_card_transfer_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">#dfdfdf</item>
+    </style>
+    <!-- card transfer success button style -->
+    <style name="style_card_transfer_success_btn">
+        <item name="android:layout_width">82dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- card transfer password -->
+    <style name="style_card_transfer_password">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+    <!-- card transfer password -->
+    <style name="style_card_transfer_password_1">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+</resources>

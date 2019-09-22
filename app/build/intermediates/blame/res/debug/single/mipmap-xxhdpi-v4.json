@@ -1,0 +1,2066 @@
+[
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_logo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_time_dot.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_time_dot.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_fail.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_fail.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_add_green.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_add_green.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\search_icon_large.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\search_icon_large.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\search_black.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\search_black.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\star_grey.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\star_grey.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_c2c.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_c2c.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jiugongge_dialog_bg.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jiugongge_dialog_bg.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_pay.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_pay.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_email.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_email.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_calling_trusted.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calling_trusted.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_hungup_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_hungup_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_to.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_card_to.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_delivery_black.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_delivery_black.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_new_friend.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_new_friend.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\confirm.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\confirm.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\search_black.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\search_black.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\default_avatar.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\default_avatar.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_silence.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_silence.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_silent.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_silent.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\checkbox_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\checkbox_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\img_card_log_default.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\img_card_log_default.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_card_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_card_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\installed_icon_logo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\installed_icon_logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_answer.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_answer.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\to_right.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\to_right.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_sms.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_sms.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_phone.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_phone.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_left.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_left.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_trust.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_trust.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_access.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_access.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_c2c.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_c2c.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_down.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_card_down.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_answer.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_answer.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_silence_click.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_silence_click.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_discount_integral.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_discount_integral.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\phone_icon_bottom.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon_bottom.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_payment.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_payment.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\checked.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\checked.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\add_green.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\add_green.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bingo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\bingo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\transimg_black.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\transimg_black.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_handfree.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_handfree.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_transfer_pay_fail.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_transfer_pay_fail.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mingpian.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\mingpian.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_contacts_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_contacts_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_fail_1.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_fail_1.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\okcard_background.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\okcard_background.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\no_app.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\no_app.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ad.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ad.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_clip.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_clip.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mianti.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\mianti.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_handfree_click.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_handfree_click.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\add_star_light.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\add_star_light.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_identity_1.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_identity_1.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_bank.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_bank.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\delete_star.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\delete_star.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_contact_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_contact_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_record_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_record_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_time_dot.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_time_dot.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_toolbar_back.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_toolbar_back.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\add_star_light.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\add_star_light.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_member_add.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_member_add.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_fail.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_fail.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calendar0.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar0.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\pending_update_icon.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\pending_update_icon.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_success_1.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_success_1.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_downloaded.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_downloaded.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\checkbox_checked.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bohaojianpan.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\bohaojianpan.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_contacts_hover.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_contacts_hover.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_card.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_card.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\image_card_default.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\image_card_default.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\main_trusted.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\main_trusted.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\main_not_trusted.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\main_not_trusted.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_card.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_card.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_calling_trust_not.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calling_trust_not.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\setting.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\setting.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_call_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_call_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\installed_icon_logo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\installed_icon_logo.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_record_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_record_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_search.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_search.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_chat.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_chat.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mingpian.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\mingpian.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\text_send.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\text_send.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\hand.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\hand.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_transfer_black.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_transfer_black.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\accessary_cancel.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\accessary_cancel.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_union.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_union.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\orange_logo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\orange_logo.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\cancel.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\cancel.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_inside.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_inside.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\default_avatar.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\default_avatar.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\battery_outline.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\battery_outline.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\payment_fail.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\payment_fail.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_identity_2.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_identity_2.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tag_un_selected.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tag_un_selected.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_hangup.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_hangup.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jiugongge_dialog_bg.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jiugongge_dialog_bg.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_doc.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_doc.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_calling_trust_not.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calling_trust_not.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_outside.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_outside.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_discount.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_discount.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\keyboard_return.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\keyboard_return.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_search_empty.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_search_empty.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_app_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_app_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calendar1.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar1.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_email_black.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_email_black.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_card_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_card_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_pay_button.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_pay_button.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\app_download.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\app_download.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\edit_account_right.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\edit_account_right.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_button_bg.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_button_bg.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\no_app.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\no_app.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_log_date.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_log_date.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_log_ticket.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log_ticket.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\gather.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\gather.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_success.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_success.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\save_show.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\save_show.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_app_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_app_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\edit_account_right.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\edit_account_right.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\loading.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\loading.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_app_hover.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_app_hover.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_navigation_me.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_navigation_me.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_certificates.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_certificates.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_right.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_right.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_search.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\add_star.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\add_star.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_left.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_left.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tele.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tele.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_chat_green.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_chat_green.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_print_invoice.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_print_invoice.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_print_pos.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_print_pos.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_phone.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_phone.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_success.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_success.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\alipay_logo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\alipay_logo.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_to.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_card_to.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\image_id_background.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\image_id_background.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_print_pos.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_print_pos.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\app_download.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\app_download.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_silent.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_silent.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_email.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_email.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_chat.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_chat.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\gather.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\gather.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\select_dot.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\select_dot.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_floating_bar.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_floating_bar.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tag_selected.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tag_selected.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_app_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_app_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\star.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\star.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_round.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_silence_click.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_silence_click.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\battery_outline.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\battery_outline.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\detail_star.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\detail_star.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_fail_1.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_fail_1.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_mail.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_mail.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\arrowright.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\arrowright.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\email_icon_bottom.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\email_icon_bottom.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_min.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_min.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_latest.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_latest.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\payment_fail.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\payment_fail.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_work.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_work.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_card_scanner.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_card_scanner.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tag_selected.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tag_selected.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_common.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_common.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\zuixiaohua.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\zuixiaohua.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_downloaded.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_downloaded.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_nottrust.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_nottrust.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_union.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_union.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_contacts_hover.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_contacts_hover.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_recharge.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_recharge.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mail.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\mail.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\installed_icon.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\installed_icon.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_alipay.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_alipay.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\checked.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\checked.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\charging.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\charging.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_transfer_trust.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_transfer_trust.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_phone.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_phone.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\info_confirm_img.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\info_confirm_img.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_discount_integral.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_discount_integral.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\transfer.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\transfer.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_black.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_black.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_email_black.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_email_black.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\accessory.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\accessory.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\accessory.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\accessory.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\charging.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\charging.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_member.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_member.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_app.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_app.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\back.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\back.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_dial.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_dial.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\battery_outline_red.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\battery_outline_red.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\chat_icon_bottom.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\chat_icon_bottom.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_transfer_pay_fail.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_transfer_pay_fail.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_member_delete.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_member_delete.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_email_trust.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_email_trust.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_keyboard_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_keyboard_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_voice.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_voice.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\to_right.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\to_right.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\image_id_background.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\image_id_background.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\open_card_tip.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\open_card_tip.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\save_hide.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\save_hide.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_app_hover.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_app_hover.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_latest.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_latest.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_logo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_hungup_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_hungup_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\loading.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\loading.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jingyin.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jingyin.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_chat_orange.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_chat_orange.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\china_bank.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\china_bank.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_transfer.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_transfer.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_card_alipay.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_card_alipay.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_calling_trusted.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calling_trusted.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_card_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_card_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\email_icon_bottom.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\email_icon_bottom.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_add.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_add.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_handfree.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_handfree.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\chat.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\chat.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_card_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_card_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_chat.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_chat.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_card_qrcode_back.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_card_qrcode_back.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_card_scanner.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_card_scanner.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_record_click.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_record_click.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\background_add.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\background_add.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_call_orange.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_call_orange.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\zuixiaohua.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\zuixiaohua.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\save_hide.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\save_hide.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_trusted.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_trusted.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\minimize_phone.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\minimize_phone.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_search.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_search.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_transfer_black.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_transfer_black.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_contact_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_contact_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_travel.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_travel.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_phone.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_phone.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_deliver_trust.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_deliver_trust.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_delivery_black.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_delivery_black.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\record_has_no_data.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\record_has_no_data.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_delivery.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_delivery.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_record_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_record_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\img_card_default.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\img_card_default.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_card_delete.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_card_delete.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_trans.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_trans.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\delete_account.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\delete_account.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_handfree_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_handfree_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_app_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_app_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\china_bank.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\china_bank.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bohaojianpan.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\bohaojianpan.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\search_gray.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\search_gray.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_icon.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_icon.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\hand.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\hand.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\transfer.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\transfer.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_payment.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_payment.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\updatetip_bg.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\updatetip_bg.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_member_add.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_member_add.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_record.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_record.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_pic.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_pic.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_white.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_white.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\keyboard_return.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\keyboard_return.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_contact_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_contact_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_log_pos.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log_pos.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_access.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_access.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\minimize_phone.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\minimize_phone.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\add_green.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\add_green.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bank_default_big.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\bank_default_big.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_set_default.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_set_default.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_white.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_white.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\not_trusted.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\not_trusted.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\background_add.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\background_add.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_no_background.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_no_background.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_transfer_trust.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_transfer_trust.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_no_use_bank.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_no_use_bank.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_trusted.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_trusted.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\search_gray.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\search_gray.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_record_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_record_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_minimize_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_minimize_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_silence.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_silence.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\arrow_down.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\arrow_down.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_log_invoice.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log_invoice.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\popupwindow_bg.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\popupwindow_bg.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_card_hover.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_card_hover.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\non_friend.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\non_friend.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\call_phone.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\call_phone.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\upwards.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\upwards.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_card_receivables.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_card_receivables.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\text_send.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\text_send.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\main_not_trusted.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\main_not_trusted.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\updatetip_bg.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\updatetip_bg.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\img_card_default.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\img_card_default.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_app_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_app_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_chat_green.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_chat_green.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_card_hover.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_card_hover.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_pay_button.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_pay_button.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\star_grey.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\star_grey.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_record.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_record.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_no_use_bank.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_no_use_bank.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_chat.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_chat.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\no_select_dot.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\no_select_dot.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_outside.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_outside.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_delivery.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_delivery.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_card_delete.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_card_delete.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tele.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tele.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_add_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_add_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\arrowright.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\arrowright.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\select_dot.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\select_dot.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_add.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_add.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_identity_1.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_identity_1.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\detail_star_common.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\detail_star_common.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_work.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_work.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\fail_ol_icon.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\fail_ol_icon.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_trans.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_trans.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_toolbar_back.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_toolbar_back.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calendar0.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar0.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_pay_close.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_pay_close.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_contacts_add.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_contacts_add.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calendar1.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calendar1.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_card_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_card_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\one_by_one.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\one_by_one.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_card_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_card_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_icon.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_icon.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tag_un_selected.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tag_un_selected.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\detail_star.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\detail_star.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\okcard_background.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\okcard_background.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_navigation_me.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_navigation_me.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jiugongge_bg.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jiugongge_bg.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\cancel.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\cancel.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_silence_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_silence_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_log_invoice.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log_invoice.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\popupwindow_bg.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\popupwindow_bg.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\phone_icon_bottom.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\phone_icon_bottom.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_dollar.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_dollar.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jiugongge_dot.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jiugongge_dot.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\arrows_right.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\arrows_right.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_minimize_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_minimize_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_close.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_close.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_set_default.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_set_default.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_contact_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_contact_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\star_yellow.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\star_yellow.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_empty.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_empty.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_gather.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_gather.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo2.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo2.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\pencil.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\pencil.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\img_card_log_default.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\img_card_log_default.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_log_date.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_log_date.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_dial.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_dial.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\search_icon_large.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\search_icon_large.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_contact_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_contact_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_record_hover.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_record_hover.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\battery_outline_red.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\battery_outline_red.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_print_ticket.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_print_ticket.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher_no_background.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_no_background.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_clip.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_clip.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\luyin.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\luyin.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_call_orange.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_call_orange.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\delete_star.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\delete_star.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_trust.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_trust.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_call_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_call_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_deliver_trust.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_deliver_trust.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\cash.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\cash.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\delete_account.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\delete_account.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_add_green.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_add_green.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_button_bg.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_button_bg.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_search_empty.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_search_empty.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_wechat.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_wechat.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\save_show.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\save_show.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_app.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_app.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_record_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_record_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_pay_close.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_pay_close.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_card_qrcode_back.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_card_qrcode_back.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_record_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_record_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_sms.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_sms.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_search.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\back.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\back.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_handfree_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_handfree_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_app_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_app_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\accessary_cancel.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\accessary_cancel.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\express.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\express.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_print_ticket.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_print_ticket.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\head.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\head.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_min.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_min.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\no_open_card.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\no_open_card.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_black.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_black.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_contact_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_contact_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_recharge.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_recharge.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_email_trust.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_email_trust.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_card_alipay.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_card_alipay.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\express.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\express.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_card_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_card_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_member_delete.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_member_delete.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\no_select_dot.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\no_select_dot.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icon_card_receivables.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_card_receivables.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_open_logo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_open_logo.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_pic.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_pic.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_alipay.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_alipay.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_common.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_common.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\card_sample.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\card_sample.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_discount.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_discount.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_handfree_click.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_handfree_click.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_record_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_record_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_keyboard_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_keyboard_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_nottrust.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_nottrust.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\downwards.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\downwards.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_record_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_record_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_record_hover.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_record_hover.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_app_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_app_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_contact_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_contact_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_gather.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_gather.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_bank.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_bank.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mail.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\mail.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\image_card_default.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\image_card_default.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_inside.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_inside.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\setting.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\setting.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_log_pos.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log_pos.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\upwards.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\upwards.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\head.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\head.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_member.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_member.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_delivery.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_delivery.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\no_open_card.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\no_open_card.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo_wechat.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_wechat.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_contacts_add.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_contacts_add.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jingyin.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jingyin.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_app_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_app_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_chat_orange.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_chat_orange.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_contact_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_contact_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bingo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\bingo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_call_green.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_call_green.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\battery_outline_green.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\battery_outline_green.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ad.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ad.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\non_friend.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\non_friend.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_card_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_card_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\checkbox_checked.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_new_friend.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_new_friend.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\star_yellow.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\star_yellow.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\call_phone.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\call_phone.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_delivery.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_delivery.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\pen.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\pen.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\keyboard_delete_img.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\keyboard_delete_img.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\detail_star_common.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\detail_star_common.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\add_star.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\add_star.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\delete_account_icon.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\delete_account_icon.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\one_by_one.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\one_by_one.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\chat.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\chat.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_print_invoice.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_print_invoice.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\arrow_down.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\arrow_down.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\card_sample.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\card_sample.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\open_card_tip.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\open_card_tip.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_doc.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_doc.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_success_1.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_success_1.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\installed_icon.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\installed_icon.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tab_app_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tab_app_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_app_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_app_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\transimg_black.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\transimg_black.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\confirm.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\confirm.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\main_trusted.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\main_trusted.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\star.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\star.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_call_green.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_call_green.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jiugongge_dot.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jiugongge_dot.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_contacts_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_contacts_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nav_record_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\nav_record_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\app_unload.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\app_unload.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_open_logo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_open_logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\uploading.gif",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\uploading.gif"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_record_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_record_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_record_click.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_record_click.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\jiugongge_bg.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\jiugongge_bg.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_identity_2.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_identity_2.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_card_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_card_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\battery_outline_green.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\battery_outline_green.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\not_trusted.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\not_trusted.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\pen.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\pen.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_add_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_add_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_card_press.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_card_press.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\pencil.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\pencil.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_certificates.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_certificates.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_close.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_close.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\myfile_mail.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\myfile_mail.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_dollar.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_dollar.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\app_unload.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\app_unload.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_notice_voice.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_notice_voice.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_record_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_record_unclickable.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\alipay_logo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\alipay_logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\cash.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\cash.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_pay.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_pay.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bank_default_big.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\bank_default_big.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\delete_account_icon.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\delete_account_icon.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\uploading.gif",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\uploading.gif"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\orange_logo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\orange_logo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_email.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_email.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_record_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_record_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\info_confirm_img.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\info_confirm_img.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_card_press.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_nav_card_press.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_down.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\assistant\\build\\intermediates\\bundles\\default\\res\\mipmap-xxhdpi-v4\\ic_card_down.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\record_has_no_data.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\record_has_no_data.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_log_ticket.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log_ticket.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_floating_bar.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_floating_bar.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\fail_ol_icon.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\fail_ol_icon.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_card_unclickable.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_card_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\downwards.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\downwards.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\checkbox_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\checkbox_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\luyin.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\luyin.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\mianti.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\mianti.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\chat_icon_bottom.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\chat_icon_bottom.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\tab_card_travel.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\tab_card_travel.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_card_empty.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_card_empty.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_to_right.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_to_right.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\pending_update_icon.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\pending_update_icon.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\calling_silence_unclickable.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\calling_silence_unclickable.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\logo2.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\logo2.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_call_hangup.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_call_hangup.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\arrows_right.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\arrows_right.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\contact_detail_transfer.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\contact_detail_transfer.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\trans_manager_email.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\trans_manager_email.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\keyboard_delete_img.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\mipmap-xxhdpi\\keyboard_delete_img.png"
+    }
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/status_bar_height"
+    android:background="@color/black">
+    <!-- modify by luoxx 170607  修改实名认证title-->
+    <TextView
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/em_mm_title_back"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_left"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/logo"/>
+
+    <TextView android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ocr_title"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:drawablePadding="10dip"/>
+
+  <Button
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:textSize="13sp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

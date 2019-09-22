@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_card_background"
+              android:orientation="vertical">
+
+    <!--
+     ==== modify by wangshuai 2017-05-03 add scanner and receivables button  ==
+    -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarSize"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/btn_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/widget_internal_padding_10dp"
+            android:src="@mipmap/icon_card_scanner"
+            android:visibility="gone"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_receivables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btn_scanner"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/widget_internal_padding_10dp"
+            android:src="@mipmap/icon_card_receivables"
+            android:visibility="gone"/>
+
+        <!-- modify by wangshuai 2017-06-06 add icon_add  -->
+        <ImageButton
+            android:id="@+id/ib_drop_add"
+            android:layout_width="@dimen/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_contacts_add"
+            />
+
+        <!-- modify by wangshuai 2017-06-06 update logo close to the left -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/ib_drop_add"
+            android:layout_toStartOf="@+id/action_menu_button"
+            android:orientation="horizontal">
+
+            <!--<com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_logo"
+                android:layout_width="@dimen/actionBar_logo_width"
+                android:layout_height="@dimen/actionBar_logo_height"
+                android:layout_marginTop="5dp"
+                app:actualImageScaleType="fitCenter"
+                app:placeholderImage="@mipmap/logo"
+                app:placeholderImageScaleType="fitCenter"/>-->
+
+            <!-- modify by wangshuai 2017-06-20 update actionbar logo -->
+            <com.vboss.okline.ui.card.widget.LogoView
+                android:id="@+id/logoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"/>
+
+            <!-- Added by wangshuai 2017-06-21 battery capacity view -->
+            <com.vboss.okline.view.widget.OKCardView
+                android:id="@+id/ocardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/logoView"
+                />
+
+
+            <TextView
+                android:id="@+id/action_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="3dp"
+                android:gravity="center"
+                android:text="@string/tab_card"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/actionBarTitleSize"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/action_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:src="@mipmap/ic_search"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+    <!--    ========== end ==============    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tabCardSize">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:tabBackground="@color/white"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/black"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="scrollable"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="bottom"
+            android:background="#dfdfdf"/>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.vboss.okline.ui.card.widget.SliderListView
+            android:id="@+id/sliderListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:overScrollMode="never"/>
+
+        <TextView
+            android:id="@+id/tv_floating"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/shape_card_floating"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textDirection="firstStrong"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/layout_card_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f4f4f4"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <!-- modify by wangshuai 2017-05-25 update card empty tip message  -->
+            <TextView
+                android:id="@+id/tv_card_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/ic_card_empty"
+                android:gravity="center"
+                android:textColor="#5d5d5d"
+                android:textSize="@dimen/textSize_14"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="48dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="32dp"
+                android:lineSpacingExtra="2dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/card_empty_desc"
+                android:textColor="#8e8e8e"
+                android:textSize="@dimen/textSize_12"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

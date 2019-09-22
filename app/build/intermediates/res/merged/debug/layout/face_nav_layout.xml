@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/face_nav_dialog"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_width="580px"
+    android:layout_height="720px"
+    android:layout_marginTop="257px"
+    android:background="@drawable/face_nav_dialog_shape">
+
+    <TextView
+        android:id="@+id/face_nav_dialog_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:text="请将脸置于提示框内,并按提示做动作"
+        android:gravity="center_horizontal"
+        android:textSize="30px"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/face_nav_dialog_phone"
+        android:layout_width="191px"
+        android:layout_height="324px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184px"
+        android:background="@drawable/face_nav_phone"/>
+
+    <ImageView
+        android:id="@+id/face_nav_dialog_people"
+        android:layout_width="166px"
+        android:layout_height="170px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="257px"
+        android:background="@drawable/face_nav_people"/>
+
+    <ImageView
+        android:id="@+id/face_nav_dialog_mask"
+        android:layout_toRightOf="@id/face_nav_dialog_phone"
+        android:layout_alignTop="@id/face_nav_dialog_phone"
+        android:layout_width="191px"
+        android:layout_height="324px"
+        android:background="#ffffffff"/>
+
+    <ImageView
+        android:id="@+id/face_nav_dialog_shape"
+        android:layout_width="168px"
+        android:layout_height="190px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="242px"
+        android:background="@drawable/face_nav_shape_blue"/>
+
+    <ImageView
+        android:id="@+id/face_nav_dialog_icon_ok"
+        android:layout_width="24px"
+        android:layout_height="24px"
+        android:layout_alignLeft="@+id/face_nav_dialog_phone"
+        android:layout_alignTop="@+id/face_nav_dialog_phone"
+        android:layout_marginTop="46px"
+        android:layout_marginLeft="147px"
+        android:background="@drawable/face_nav_icon_ok"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/face_nav_dialog_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="520px"
+        android:layout_height="76px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30px"
+        android:text="开始"
+        android:textColor="#FFFFFF"
+        android:textSize="32px"
+        android:background="@drawable/face_nav_dialog_button_shape"/>
+
+
+
+</RelativeLayout>

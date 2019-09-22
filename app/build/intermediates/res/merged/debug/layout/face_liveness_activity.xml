@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <com.alipay.mobile.security.faceauth.component.bank.SimpleFaceDetectPattern xmlns:android="http://schemas.android.com/apk/res/android" -->
+<com.alibaba.security.biometrics.face.auth.view.LivenessDetectActionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abface_facedetect_pattern"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.alibaba.security.biometrics.face.auth.widget.CameraSurfaceView
+            android:id="@+id/abface_camera_surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+    <!--
+         <include
+        android:id="@+id/face_detect_upload"
+        layout="@layout/simple_pattern_upload"
+        android:visibility="gone" />
+    -->
+
+    <ViewStub
+        android:id="@+id/face_detect_upload"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/face_upload" />
+
+    <include
+        android:id="@+id/face_detect_action"
+        layout="@layout/face_action" />
+
+
+    <include
+        android:id="@+id/face_nav_dialog_layout"
+        layout="@layout/face_nav_layout" />
+
+
+    <include
+        android:id="@+id/face_detect_titlebar"
+        layout="@layout/face_action_titlebar" />
+
+
+</com.alibaba.security.biometrics.face.auth.view.LivenessDetectActionLayout>
+

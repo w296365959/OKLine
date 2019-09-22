@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_fragment_toolbar_v2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="7dp">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_card"
+            android:layout_width="99dp"
+            android:layout_height="63dp"
+            app:placeholderImage="@mipmap/image_card_default"
+            app:placeholderImageScaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/sdv_card"
+            android:gravity="center_vertical|start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳通"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+
+            <TextView
+                android:id="@+id/tv_card_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#909090"
+                android:textSize="@dimen/textSize_12" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/card_open_cost"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14"/>
+
+            <TextView
+                android:id="@+id/tv_card_open_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:text="@string/card_open_cost"
+                android:textColor="@color/brick_red"
+                android:textSize="@dimen/textSize_14"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.vboss.okline.view.widget.PaymentLauchLayout
+        android:id="@+id/pll_bankcards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tv_card_pay_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape_card_open_green"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/card_open_pay"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_14"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+CREATE TABLE CardLog(
+    _id INTEGER AS integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+    cardMainType INTEGER as integer NOT NULL,
+    cardId INTEGER as integer NOT NULL,
+    cardNo TEXT,
+    cardName TEXT,
+    transTime TEXT,
+    amount INTEGER as integer not null default 0,
+    imgUrl TEXT,
+    remark TEXT,
+    orderNo TEXT,
+    slipUrl TEXT,
+    receiptUrl TEXT,
+    invoiceUrl TEXT,
+    merName TEXT,
+    integral INTEGER AS integer not null default 0
+);
+
+
+

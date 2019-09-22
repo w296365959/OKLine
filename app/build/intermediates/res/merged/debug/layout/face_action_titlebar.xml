@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="51dip" >
+
+    <View
+        android:id="@+id/simple_close_area"
+        android:layout_width="35dip"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/face_action_close"
+        android:layout_width="23dip"
+        android:layout_height="23dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dip"
+        android:layout_marginTop="6dip"
+        android:background="@drawable/face_top_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/simple_sound_switch_area"
+        android:layout_width="35dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/face_action_sound_switch"
+        android:layout_width="25dip"
+        android:layout_height="22dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="6dip"
+        android:layout_marginTop="6dip"
+        android:background="@drawable/face_top_sound_on" />
+
+</RelativeLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/face_frameinfo_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+    <!-- background top -->
+
+    <View
+        android:id="@+id/face_action_mask_top"
+        android:layout_width="match_parent"
+        android:layout_height="147dip"
+        android:background="@drawable/face_action_mask_top" />
+
+    <!-- background mask -->
+
+    <ImageView
+        android:id="@+id/face_action_mask"
+        android:layout_width="480dip"
+        android:layout_height="497dip"
+        android:layout_below="@id/face_action_mask_top"
+        android:scaleType="fitStart"
+        android:src="@drawable/face_action_mask" />
+
+    <View
+        android:id="@+id/simple_shotcut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/face_action_people_shape_view"
+        android:layout_width="260dip"
+        android:layout_height="300dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dip"
+        android:background="@drawable/face_border_white"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/face_action_people_shape"
+        android:layout_width="480dip"
+        android:layout_height="497dip"
+        android:layout_marginTop="70dip"
+        android:scaleType="fitStart"
+        android:src="@drawable/face_people_shape" />
+
+    <TextView
+        android:id="@+id/liveness_action_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dip"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/face_detect_action_mirror" />
+    
+    
+    <ImageView
+        android:id="@+id/face_action_finish_prompt"
+        android:layout_width="44dip"
+        android:layout_height="44dip"
+        android:layout_marginTop="312dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/face_action_prompt_finish" 
+        android:visibility="gone"/>
+    
+    
+
+    <RelativeLayout
+        android:id="@+id/face_action_tips_layout"
+        android:layout_width="150dip"
+        android:layout_height="68dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="299dip"
+        android:background="#a0FFFFFF"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/face_action_tips_imageview"
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/face_dialog_hint_eye_look_right" />
+
+        <TextView
+            android:id="@+id/face_action_tips_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/face_action_tips_imageview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:text="请正对屏幕"
+            android:textColor="#3d4145"
+            android:textSize="16sp" />
+    </RelativeLayout>
+<!--  <com.alipay.mobile.security.faceauth.widget.CaptureRect
+ -->
+
+    <com.alibaba.security.biometrics.face.auth.widget.CaptureRect
+        android:id="@+id/simple_action_capturerect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/simple_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/face_detect_mine"
+        android:textColor="@color/red"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/simple_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="30"
+        android:textColor="@color/red"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/face_action_steps_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dip"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/actionNormalImage2"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/face_num_2_normal" />
+
+        <ImageView
+            android:id="@+id/actionFinishImage2"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@id/actionNormalImage2"
+            android:layout_alignTop="@id/actionNormalImage2"
+            android:layout_centerVertical="true"
+            android:background="@drawable/face_num_2_finish"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/actionActiveImage2"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@id/actionNormalImage2"
+            android:layout_alignTop="@id/actionNormalImage2"
+            android:background="@drawable/face_num_2_active"
+            android:visibility="gone" />
+
+<!--         <TextView
+            android:id="@+id/actionText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/actionNormalImage2"
+            android:layout_alignTop="@id/actionNormalImage2"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dip"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="28sp" /> -->
+
+        <ImageView
+            android:id="@+id/line1to2"
+            android:layout_width="26dip"
+            android:layout_height="5dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/actionNormalImage2"
+            android:background="@drawable/face_num_line" />
+
+        <ImageView
+            android:id="@+id/actionNormalImage1"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/line1to2"
+            android:background="@drawable/face_num_1_normal" />
+
+        <ImageView
+            android:id="@+id/actionFinishImage1"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@id/actionNormalImage1"
+            android:layout_alignTop="@id/actionNormalImage1"
+            android:background="@drawable/face_num_1_finish"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/actionActiveImage1"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@id/actionNormalImage1"
+            android:layout_alignTop="@id/actionNormalImage1"
+            android:background="@drawable/face_num_1_active"
+            android:visibility="gone" />
+
+<!--         <TextView
+            android:id="@+id/actionText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/actionNormalImage1"
+            android:layout_alignTop="@id/actionNormalImage1"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dip"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:visibility="gone"/> -->
+
+        <ImageView
+            android:id="@+id/line2to3"
+            android:layout_width="26dip"
+            android:layout_height="5dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/actionNormalImage2"
+            android:background="@drawable/face_num_line" />
+
+        <ImageView
+            android:id="@+id/actionNormalImage3"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/line2to3"
+            android:background="@drawable/face_num_3_normal" />
+
+        <ImageView
+            android:id="@+id/actionFinishImage3"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@id/actionNormalImage3"
+            android:layout_alignTop="@id/actionNormalImage3"
+            android:background="@drawable/face_num_3_finish"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/actionActiveImage3"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignLeft="@id/actionNormalImage3"
+            android:layout_alignTop="@id/actionNormalImage3"
+            android:background="@drawable/face_num_3_active"
+            android:visibility="gone" />
+
+<!--         <TextView
+            android:id="@+id/actionText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/actionNormalImage3"
+            android:layout_alignTop="@id/actionNormalImage3"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dip"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:visibility="gone"/> -->
+    </RelativeLayout>
+
+</RelativeLayout>

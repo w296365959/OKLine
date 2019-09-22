@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/express_directing_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="@dimen/common_margin_26"
+        android:src="@drawable/express_nodes" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin_5"
+            android:layout_marginTop="@dimen/common_margin_5"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/express_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14:19"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+
+            <TextView
+                android:id="@+id/express_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-04-19"
+                android:textColor="@color/dimgrey"
+                android:textSize="@dimen/textSize_13" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/express_temporary_address_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="杭州市中转站"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+    </LinearLayout>
+
+</LinearLayout>

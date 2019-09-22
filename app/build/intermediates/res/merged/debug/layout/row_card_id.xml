@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="@dimen/row_card_margin_top"
+        android:background="@color/transparent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simple_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4.5dp"
+            fresco:failureImageScaleType="centerCrop"
+            fresco:placeholderImage="@mipmap/image_id_background"
+            fresco:placeholderImageScaleType="centerCrop"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true"
+            fresco:roundedCornerRadius="2.5dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_identity_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="19dp"
+            android:layout_marginEnd="19dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_identity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_identity_id"
+            android:layout_marginEnd="13dp"
+            android:layout_toStartOf="@id/tv_identity_id"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tv_identity_name"
+            android:layout_alignStart="@id/tv_identity_name"
+            android:layout_marginBottom="8dp"
+            android:text="@string/card_identity_info"
+            android:textColor="#898989"
+            android:textSize="10sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/card_identity_e_id"
+                android:src="@mipmap/ic_identity_1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:contentDescription="@string/card_identity_e_id"
+                android:src="@mipmap/ic_identity_2"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

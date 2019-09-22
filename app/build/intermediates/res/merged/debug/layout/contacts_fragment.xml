@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background">
+
+
+    <!--<com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <!--
+     ==== modify by linzhangbin 2017-06-06 add scanner and receivables button  ==
+    -->
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarSize"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/btn_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/widget_internal_padding_10dp"
+            android:src="@mipmap/icon_card_scanner"
+            android:visibility="gone"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_receivables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btn_scanner"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/widget_internal_padding_10dp"
+            android:src="@mipmap/icon_card_receivables"
+            android:visibility="gone"/>
+
+        <!-- modify by linzhangbin 2017-06-06 add icon_add  -->
+        <ImageButton
+            android:id="@+id/ib_drop_add"
+            android:layout_width="@dimen/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_contacts_add"
+            />
+
+        <!-- modify by linzhangbin 2017-06-06 update logo close to the left -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/ib_drop_add"
+            android:layout_toStartOf="@+id/action_menu_button"
+            android:orientation="horizontal">
+
+            <!--<com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/sdv_logo"
+                android:layout_width="@dimen/actionBar_logo_width"
+                android:layout_height="@dimen/actionBar_logo_height"
+                android:layout_marginTop="5dp"
+                app:actualImageScaleType="fitCenter"
+                app:placeholderImage="@mipmap/logo"
+                app:placeholderImageScaleType="fitCenter"/>-->
+            <!-- modify by linzhangbin 2017-06-21 update actionbar logo -->
+            <com.vboss.okline.ui.card.widget.LogoView
+                android:id="@+id/logoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"/>
+
+            <!-- Added by linzhangbin 2017-06-21 battery capacity view -->
+            <com.vboss.okline.view.widget.OKCardView
+                android:id="@+id/ocardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/logoView"
+                />
+
+            <TextView
+                android:id="@+id/action_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="3dp"
+                android:gravity="center"
+                android:text="@string/tab_card"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/actionBarTitleSize"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/action_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:src="@mipmap/ic_search"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+    <!--    ========== end ==============    -->
+
+
+    <RelativeLayout
+        android:id="@+id/rl_headview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_item_height"
+        android:layout_below="@+id/rl_toolbar"
+        android:background="@drawable/settings_item_selector">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="@dimen/contact_item_avatar_width"
+            android:layout_height="@dimen/contact_item_avatar_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:src="@mipmap/default_avatar"
+            fresco:placeholderImage="@mipmap/default_avatar"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true"
+            fresco:roundedCornerRadius="3dp" />
+
+        <TextView
+            android:id="@+id/tv_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_contact_avatar"
+            android:gravity="center_vertical"
+            android:text="我"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_complete_information"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tv_me"
+            android:gravity="center_vertical"
+            android:text="@string/contacts_text_complete_card"
+            android:textColor="@color/app_card_mername_color"
+            android:textSize="13sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_my"
+            android:layout_width="47dp"
+            android:layout_height="@dimen/contact_item_my_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_contact_button_normal"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:layout_alignBottom="@id/rl_headview"
+        android:background="@color/divider_color"/>
+
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/trans_ptrFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_headview"
+        android:background="@color/color_card_background"
+        cube_ptr:ptr_duration_to_close_either="1000"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="false"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+        cube_ptr:ptr_resistance="1.7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/lv_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:focusable="true"
+                android:groupIndicator="@null"
+                android:scrollbars="none"
+                android:scrollingCache="true" />
+
+            <TextView
+                android:id="@+id/non_new_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="154dp"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/non_friend"
+                android:gravity="center_horizontal"
+                android:text="@string/non_friend"
+                android:textColor="@color/text_no_contact"
+                android:textSize="13sp"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="@dimen/contact_slide_dialog_width"
+        android:layout_height="@dimen/contact_slide_dialog_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_sidebar_text_bg"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/contact_middle_text"
+        android:visibility="invisible" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="145dp">
+
+        <com.vboss.okline.view.widget.SideBar
+            android:id="@+id/sidebar"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/pb_add_contacts"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

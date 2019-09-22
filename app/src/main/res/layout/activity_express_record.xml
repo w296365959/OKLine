@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--title-->
+    <include layout="@layout/activity_express_title"></include>
+    <!--以上是title-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/common_margin_10">
+
+        <TextView
+            android:id="@+id/express_on_the_way_textView"
+            android:layout_width="@dimen/width_86"
+            android:layout_height="@dimen/height_26"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/widget_internal_padding_10dp"
+            android:background="@drawable/bg_shape_textview_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/express_on_the_way"
+            android:textColor="@drawable/express_textview_color_selector"
+            android:textSize="@dimen/textSize_13" />
+
+        <TextView
+            android:id="@+id/express_to_be_confirmed_textView"
+            android:layout_width="@dimen/width_86"
+            android:layout_height="@dimen/height_26"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/widget_internal_padding_10dp"
+            android:layout_toRightOf="@id/express_on_the_way_textView"
+            android:background="@drawable/bg_shape_textview_selector"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/express_to_be_confirmed"
+            android:textColor="@drawable/express_textview_color_selector"
+            android:textSize="@dimen/textSize_13" />
+
+        <TextView
+            android:id="@+id/express_completed_textView"
+            android:layout_width="@dimen/width_86"
+            android:layout_height="@dimen/height_26"
+            android:layout_marginLeft="@dimen/widget_internal_padding_10dp"
+            android:layout_toEndOf="@id/express_to_be_confirmed_textView"
+            android:background="@drawable/bg_shape_textview_selector"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/express_completed"
+            android:textColor="@drawable/express_textview_color_selector"
+            android:textSize="@dimen/textSize_13" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_card_open_line"></View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/express_company_rv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/margin_12"
+        android:layout_marginLeft="@dimen/margin_12"
+        android:layout_marginTop="@dimen/margin_12">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/express_null_company_tv"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:gravity="center"
+        android:text="暂无快递信息"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/app_line"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_5"
+                android:text="快递记录"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_14" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="@dimen/common_margin_20"
+                android:background="@color/dimgrey"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_5"
+                android:text="单号:"
+                android:textColor="@color/dimgrey"
+                android:textSize="@dimen/textSize_13" />
+
+            <TextView
+                android:id="@+id/express_odd_numbers_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_5"
+                android:text="暂无"
+                android:textColor="@color/opayStyleColor"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/express_address_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/common_margin_5"
+                android:gravity="center_vertical"
+                android:text="顺丰快递"
+                android:textColor="@color/brick_red"
+                android:textSize="@dimen/textSize_14" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/express_record_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/express_null_record_tv"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:text="暂无快递信息"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/text_record_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:text="发快递信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_above="@id/text_record_date_title"
+            android:layout_marginBottom="10dp"
+            android:background="@color/color_card_open_line"></View>
+
+        <ImageView
+            android:id="@+id/arrow_record_date_title_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/downwards" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/text_accept_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:text="发快递信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_above="@id/text_accept_date_title"
+            android:layout_marginBottom="10dp"
+            android:background="@color/color_card_open_line"></View>
+
+        <ImageView
+            android:id="@+id/arrow_accept_date_title_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/downwards" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/text_record_date_title"
+        android:background="@color/color_card_open_line"></View>
+
+</LinearLayout>

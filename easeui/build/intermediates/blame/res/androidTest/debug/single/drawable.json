@@ -1,0 +1,1034 @@
+[
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatfrom_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_photogrid_list_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_photogrid_list_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_default_avatar.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_default_avatar.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_appitem_del_btn_pressed.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_appitem_del_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_call_pressed.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_call_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_actionbar_camera_icon.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_actionbar_camera_icon.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_gray.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_gray.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_voice_call_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_voice_call_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_voice_call_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_voice_call_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\et_border_send.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\et_border_send.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\voice_from_icon.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\voice_from_icon.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_search_clear.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_hidden_line.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_hidden_line.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_speaker_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_speaker_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_call_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_call_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_mm_title_act_btn_pressed.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_mm_title_act_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_mm_title_act_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_mm_title_act_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_call_pressed.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_call_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_photogrid_list_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_photogrid_list_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\voice_to_icon.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\voice_to_icon.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_style_alert_dialog_background.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_style_alert_dialog_background.9.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_common_tab_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_seabar_input.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_seabar_input.9.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_video_recorder_stop_btn.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_video_recorder_stop_btn.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_bg_edittext_focused.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_bg_edittext_focused.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_video_recorder_stop_btn.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_video_recorder_stop_btn.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_camera_switch_normal.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_camera_switch_normal.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_mm_listitem_grey.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_call_hangup_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_call_hangup_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_edit_text_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_empty_photo.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_empty_photo.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_logout_normal_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_logout_normal_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_black_send.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_black_send.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_gray_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_gray_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_mm_title_act_btn_normal.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_mm_title_act_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_search_clear.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_search_clear.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_show_head_toast_bg.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_bg_edittext.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_bg_edittext.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_smiley_add_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_smiley_add_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_file_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_file_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_pressed.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_logout_pressed_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_logout_pressed_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_search_bar_icon_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_search_bar_icon_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_show_head_toast_bg.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_image_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_style_alert_dialog_special.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_style_alert_dialog_special.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_mute_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_mute_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_app_pref_bg.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_app_pref_bg.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_bg_edittext_normal.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_bg_edittext_normal.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_emial_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_emial_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_context_menu_item_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_context_menu_item_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_logout_normal_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_logout_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_call_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_call_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_call_hangup_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_call_hangup_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_video_recorder_start_btn.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_roominfo_add_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_roominfo_add_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_camera_switch_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_camera_switch_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_phone_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_phone_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_speaker_on.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_speaker_on.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_pay_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_pay_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_default_avatar.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_default_avatar.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_black.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_black.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_actionbar_camera_icon.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_actionbar_camera_icon.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_phone_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_phone_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_gray_pressed_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_gray_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_bg_edittext.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_bg_edittext.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_location_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_mute_on.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_mute_on.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_smiley_add_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_smiley_add_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_appitem_del_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_appitem_del_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_camera_switch_pressed.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_camera_switch_pressed.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_dialog_single_top.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_dialog_single_top.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_timestampe_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_image_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_black.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_black.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_camera_switch_pressed.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_camera_switch_pressed.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatfrom_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_emial_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_emial_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_app_pref_bg.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_app_pref_bg.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_style_alert_dialog_background.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_style_alert_dialog_background.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_dialog_single_bottom.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_dialog_single_bottom.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_smiley_add_btn_nor.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_smiley_add_btn_nor.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_speaker_on.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_speaker_on.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_mm_title_act_btn_pressed.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_mm_title_act_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_gray_pressed_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_gray_pressed_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_search_bar_icon_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_search_bar_icon_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_smiley_add_btn_pressed.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_smiley_add_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_call_answer_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_call_answer_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_bottom_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_bottom_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_camera_switch_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_camera_switch_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_wuliu_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_wuliu_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_dialog_single_bottom.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_dialog_single_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_mute_on.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_mute_on.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\voice_from_icon.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\voice_from_icon.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_location_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_roominfo_add_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_roominfo_add_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_wuliu_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_wuliu_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_pressed.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_pressed.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_edit_text_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_edit_text_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_dialog_single_top.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_dialog_single_top.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\et1_border_send.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\et1_border_send.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_seabar_input.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_seabar_input.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_voice_call_pressed.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_voice_call_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_common_tab_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_gray_normal_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_gray_normal_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_voice_call_pressed.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_voice_call_pressed.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\et_border_send.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\et_border_send.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_black_send.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_black_send.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_bg_edittext_normal.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_bg_edittext_normal.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_speaker_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_speaker_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_mm_listitem.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\voice_to_icon.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\voice_to_icon.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_gray.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_gray.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_bottom_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_bottom_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_appitem_del_btn_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_appitem_del_btn_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_context_menu_item_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_context_menu_item_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_call_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_call_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_gray_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_gray_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_call_answer_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_call_answer_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_voice_call_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_voice_call_normal.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_smiley_add_btn_pressed.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_smiley_add_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_hidden_line.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_hidden_line.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_video_call_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_video_call_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_video_recorder_start_btn.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\et1_border_send.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\et1_border_send.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_appitem_del_btn_pressed.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_appitem_del_btn_pressed.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_gray_normal_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_gray_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_voice_call_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_voice_call_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_mm_title_act_btn_normal.9.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_mm_title_act_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_appitem_del_btn_normal.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_appitem_del_btn_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_smiley_add_btn_nor.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_smiley_add_btn_nor.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_logout_pressed_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_logout_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_chat_file_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_chat_file_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_btn_style_alert_dialog_special.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_btn_style_alert_dialog_special.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_appitem_del_btn.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_appitem_del_btn.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\WZM\\.android\\build-cache\\b9b39cbc3a065882c53e418638b96eb33613e505\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_icon_mute_normal.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_icon_mute_normal.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_pay_selector.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_pay_selector.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_bg_edittext_focused.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_bg_edittext_focused.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_mm_title_act_btn.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_mm_title_act_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_mm_listitem.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_mm_listitem.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\myp\\androidsdk\\sdk\\.android\\build-cache\\cfc09302702e2d1e4379085fa5075a1a27bb832a\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chat_takepic_selector.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chat_takepic_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_timestampe_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_empty_photo.png",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_empty_photo.png"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\em_camera_switch_normal.9.png",
+        "source": "F:\\OKLine\\7-9\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\em_camera_switch_normal.9.png"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable\\ease_chatto_bg.xml"
+    }
+]

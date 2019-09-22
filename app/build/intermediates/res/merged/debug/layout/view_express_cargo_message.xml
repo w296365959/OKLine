@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/express_cargo_message_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_44"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:layout_marginTop="@dimen/common_margin_5"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cargo_information"
+            android:textColor="@color/express_green"
+            android:textSize="@dimen/textSize_14" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:background="@color/app_line"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="货物名称 :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <TextView
+            android:id="@+id/express_name_of_goods_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_7"
+            android:background="@null"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:background="@color/app_line"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="大致重量 :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <TextView
+            android:id="@+id/express_weight_of_goods_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_7"
+            android:background="@null"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

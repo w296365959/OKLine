@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\xml\\nfc_tech_filter.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\xml\\nfc_tech_filter.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\xml\\nfc_tech_filter.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\xml\\nfc_tech_filter.xml"
+    },
+    {
+        "merged": "D:\\SVN\\MyProject\\OL\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "D:\\SVN\\MyProject\\OL\\trunk\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "F:\\OKLine\\7-9\\trunk\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "F:\\OKLine\\7-9\\trunk\\app\\src\\main\\res\\xml\\file_paths.xml"
+    }
+]

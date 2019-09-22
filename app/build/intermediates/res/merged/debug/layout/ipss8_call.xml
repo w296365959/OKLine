@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/safeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ipss8_safe_calling"
+            android:textColor="@color/ipss8_safe_calling"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="12dp">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/avatarImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@mipmap/default_avatar"
+                android:scaleType="fitXY"
+                fresco:roundBottomLeft="true"
+                fresco:roundBottomRight="true"
+                fresco:roundTopLeft="true"
+                fresco:roundTopRight="true"
+                fresco:roundedCornerRadius="3dp" />
+
+            <ImageView
+                android:id="@+id/relationStateImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_calling_trust_not" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/realnameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/nicknameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="@string/ipss8_connection"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:visibility="visible"/>
+
+            <Chronometer
+                android:id="@+id/chronometerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/phoneNumView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="123456789"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/calling_icon_container">
+
+                <ImageView
+                    android:id="@+id/silenceBtn"
+                    style="@style/calling_icon_image"
+                    android:src="@drawable/selector_call_silence" />
+
+                <TextView
+                    android:id="@+id/calling_silence_text"
+                    style="@style/calling_icon_text"
+                    android:text="静音" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/calling_icon_container"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+                <ImageView
+                    android:id="@+id/keyboardBtn"
+                    style="@style/calling_icon_image"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_call_dial" />
+
+                <TextView
+                    android:id="@+id/calling_keyboard_text"
+                    style="@style/calling_icon_text"
+                    android:text="拨号键盘" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/calling_icon_container">
+
+                <ImageView
+                    android:id="@+id/handFreeBtn"
+                    style="@style/calling_icon_image"
+                    android:src="@drawable/selector_call_handfree" />
+
+                <TextView
+                    android:id="@+id/calling_handfree_text"
+                    style="@style/calling_icon_text"
+                    android:text="免提" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/calling_icon_container">
+
+                <ImageView
+                    android:id="@+id/recordBtn"
+                    style="@style/calling_icon_image"
+                    android:src="@drawable/selector_call_record" />
+
+                <TextView
+                    android:id="@+id/recordTV"
+                    style="@style/calling_icon_text"
+                    android:text="录音" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/calling_icon_container"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+                <ImageView
+                    android:id="@+id/minimizeBtn"
+                    style="@style/calling_icon_image"
+                    android:src="@mipmap/ic_call_min" />
+
+                <TextView
+                    android:id="@+id/calling_minimize_text"
+                    style="@style/calling_icon_text"
+                    android:text="最小化" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/calling_icon_container">
+
+                <ImageView
+                    android:id="@+id/cardBtn"
+                    style="@style/calling_icon_image"
+                    android:src="@mipmap/ic_call_add" />
+
+                <TextView
+                    android:id="@+id/addTextView"
+                    style="@style/calling_icon_text"
+                    android:text="添加" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/calling_bottom_ll"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/answerContainer"
+                style="@style/calling_icon_container"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/answerBtn"
+                    style="@style/calling_icon_image_bottom"
+                    android:src="@mipmap/ic_call_answer" />
+
+                <TextView
+                    android:id="@+id/calling_call_text"
+                    style="@style/calling_icon_text"
+                    android:text="接听" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/calling_icon_container"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:id="@+id/hangupBtn"
+                    style="@style/calling_icon_image_bottom"
+                    android:src="@mipmap/ic_call_hangup" />
+
+                <TextView
+                    android:id="@+id/calling_hangup_text"
+                    style="@style/calling_icon_text"
+                    android:text="挂断" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

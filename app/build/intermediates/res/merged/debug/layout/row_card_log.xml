@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingStart="7dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_log_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="@dimen/textSize_12"
+            />
+
+        <TextView
+            android:id="@+id/tv_log_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tv_log_date"
+            android:layout_below="@id/tv_log_date"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:gravity="bottom"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_12"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/layout_integral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_log_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_12"/>
+
+            <TextView
+                android:id="@+id/tv_log_integral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize_12"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_log_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_log_name"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/tv_log_name"
+            android:layout_toStartOf="@+id/layout_integral"
+            android:singleLine="true"
+            android:textSize="@dimen/textSize_12"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_line_height"
+        android:background="#dfdfdf"/>
+
+
+</LinearLayout>

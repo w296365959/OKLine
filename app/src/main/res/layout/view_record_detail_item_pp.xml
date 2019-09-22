@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_invoivce_btns"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="100dp"
+    android:gravity="center"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/receipt_institution_date"
+        style="@style/record_item_text_flag"
+        android:layout_marginEnd="16dp"
+        android:background="@mipmap/record_detail_item_xiaopiao"
+        android:text=""
+        android:textColor="@color/c_FF6500" />
+
+    <TextView
+        android:id="@+id/pos_institution_date"
+        style="@style/record_item_text_flag"
+        android:layout_marginEnd="16dp"
+        android:background="@mipmap/record_detail_item_pos"
+        android:text=""
+        android:textColor="@color/button_green" />
+
+    <TextView
+        android:id="@+id/invoice_institution_date"
+        style="@style/record_item_text_flag"
+        android:background="@mipmap/record_detail_item_fapiao"
+        android:text=""
+        android:textColor="@color/black" />
+</LinearLayout>

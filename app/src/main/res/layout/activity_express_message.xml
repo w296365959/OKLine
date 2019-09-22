@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--title-->
+    <include layout="@layout/activity_express_title"></include>
+    <!--body-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="@dimen/common_margin_10">
+
+        <TextView
+            android:id="@+id/express_on_the_way_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_internal_padding_10dp"
+            android:background="@drawable/bg_shape_textview_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/express_on_the_way"
+            android:textColor="@drawable/express_textview_color_selector"
+            android:textSize="@dimen/textSize_13" />
+
+        <TextView
+            android:id="@+id/express_to_be_confirmed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_internal_padding_10dp"
+            android:background="@drawable/bg_shape_textview_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/express_to_be_confirmed"
+            android:textColor="@drawable/express_textview_color_selector"
+            android:textSize="@dimen/textSize_13" />
+
+        <TextView
+            android:id="@+id/express_completed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_internal_padding_10dp"
+            android:background="@drawable/bg_shape_textview_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="@string/express_completed"
+            android:textColor="@drawable/express_textview_color_selector"
+            android:textSize="@dimen/textSize_13" />
+
+    </LinearLayout>
+    <!--以上是快递状态 信息-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/app_line"></View>
+    <com.vboss.okline.view.widget.ExpressNoViewPager
+        android:id="@+id/express_noViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.vboss.okline.view.widget.ExpressNoViewPager>
+
+    <!--底部栏-->
+    <RelativeLayout
+        android:id="@+id/activity_express_bottom_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_47"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/express_next_tv"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/height_47"
+            android:layout_alignParentRight="true"
+            android:background="@color/express_green"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="@color/aliceblue"
+            android:textSize="@dimen/textSize_14" />
+
+    </RelativeLayout>
+
+</LinearLayout>

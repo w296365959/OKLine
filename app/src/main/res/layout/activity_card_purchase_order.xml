@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_card_background"
+              android:orientation="vertical">
+
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarSize"/>
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:failureImage="@color/white"
+        fresco:placeholderImage="@color/white"
+        fresco:progressBarImage="@mipmap/loading"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:actualImageScaleType="fitCenter"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:visibility="gone"
+        android:scrollbars="vertical">
+
+            <!-- POS 签购单-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/margin_36"
+                android:paddingStart="@dimen/margin_36"
+                android:visibility="gone"
+                >
+
+                <!--  POS title  -->
+                <TextView
+                    android:id="@+id/tv_pos_ticket_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_38"
+                    android:gravity="center"
+                    android:text="银联POS签购单"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/text_size_34"/>
+
+                <!--商户信息-->
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/margin_3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/merchant_stub"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/text_size_22"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/merchant_warn"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/text_size_22"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/pos_line_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_line_height"
+                    android:layout_marginTop="@dimen/margin_28_2"
+                    android:background="@drawable/shape_pos_ticket_line"/>
+
+                <TextView
+                    android:id="@+id/tv_merchant_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_to_top_line"
+                    android:text="@string/merchant_name"
+                    android:textColor="@color/color_pos_ticket"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_merchant_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/merchant_number"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_terminal_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/terminal_number"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_operator_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/operator_number"
+                    />
+
+
+                <View
+                    android:id="@+id/pos_line_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_line_height"
+                    android:layout_marginTop="@dimen/margin_to_top_line"
+                    android:background="@drawable/shape_pos_ticket_line"/>
+
+                <!--交易信息-->
+
+                <TextView
+                    android:id="@+id/tv_card_issuing_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_to_top_line"
+                    android:text="@string/card_issuing_bank"
+                    android:textColor="@color/color_pos_ticket"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_acquiring_bank"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/acquiring_bank"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_trans_type"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/trans_type"
+                    />
+
+                <TextView
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/card_bank_num"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_card_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_28_1"
+                    android:text="@string/trans_type"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_36"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_serial_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/serial_number"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_trans_date"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/trans_date"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_period_validity"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/period_validity"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_batch_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/batch_number"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_voucher_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/voucher_number"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_authorization_number"
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/authorization_number"
+                    />
+
+                <TextView
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/amount_money"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_amount_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_28_1"
+                    android:text="@string/trans_type"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_36"
+                    android:textStyle="bold"
+                    />
+
+                <View
+                    android:id="@+id/pos_line_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_line_height"
+                    android:layout_marginTop="@dimen/margin_to_top_line"
+                    android:background="@drawable/shape_pos_ticket_line"/>
+
+                <!-- 持卡人签名-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_28"
+                    android:text="@string/cardholder_signature"
+                    android:textColor="@color/color_pos_ticket"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/layout_signature"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_178">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_signature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        fresco:placeholderImage="@mipmap/logo"
+                        fresco:placeholderImageScaleType="centerCrop"/>
+
+                </FrameLayout>
+
+                <View
+                    android:id="@+id/pos_line_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_line_height"
+                    android:background="@drawable/shape_pos_ticket_line"/>
+
+                <TextView
+                    style="@style/style_pos_ticket_normal"
+                    android:text="@string/pos_hint"
+                    android:textColor="@color/color_pos_ticket"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_pos_remark"
+                    style="@style/style_pos_ticket_normal"
+                    android:layout_marginBottom="@dimen/margin_36"
+                    android:text="@string/pos_remark"
+                    />
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

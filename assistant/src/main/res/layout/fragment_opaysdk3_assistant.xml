@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="423dp"
+    android:background="@android:color/white"
+    android:layout_gravity="bottom"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingRight="12.5dp"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:visibility="invisible"
+                android:src="@drawable/opay" />
+
+            <TextView
+                android:id="@+id/tv_paypophint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="请输入密码"
+                android:textColor="#333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_opaypwdcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="取消"
+                android:textColor="@color/opayStyleColor"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ebebeb" />
+
+        <RelativeLayout
+            android:paddingRight="7dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_pwdface"
+                android:layout_marginTop="37dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/shape_pwdoutline1">
+
+                        <ImageView
+                            android:id="@+id/psw_dot1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/shape_dot"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/shape_pwdoutline1">
+
+                        <ImageView
+                            android:id="@+id/psw_dot2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/shape_dot"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/shape_pwdoutline1">
+
+                        <ImageView
+                            android:id="@+id/psw_dot3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/shape_dot"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/shape_pwdoutline1">
+
+                        <ImageView
+                            android:id="@+id/psw_dot4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/shape_dot"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/shape_pwdoutline1">
+
+                        <ImageView
+                            android:id="@+id/psw_dot5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/shape_dot"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="43dp"
+                        android:layout_height="43dp"
+                        android:background="@drawable/shape_pwdoutline1">
+
+                        <ImageView
+                            android:id="@+id/psw_dot6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/shape_dot"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="22.5dp">
+
+            <TextView
+                android:id="@+id/tv_forgetpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_alignParentRight="true"
+                android:text="忘记密码?"
+                android:textColor="@color/opayStyleColor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gv_keyboard"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="200dp"
+        android:background="@android:color/darker_gray"
+        android:paddingTop="0.5dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_pwdkey1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:duplicateParentState="true"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:width="0dp"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="0.5dp"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:layout_marginBottom="0.5dp"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:duplicateParentState="true"
+            android:layout_marginBottom="0.5dp"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkeyblank"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/darker_gray"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="    "
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <TextView
+            android:id="@+id/btn_pwdkey0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="0"
+            android:duplicateParentState="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/digit_keyboard_text_size" />
+
+        <RelativeLayout
+            android:id="@+id/btn_pwdkeydel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:duplicateParentState="true"
+            android:layout_rowWeight="1">
+
+
+            <ImageView
+                android:id="@+id/tv_pwdkeydel"
+                android:layout_width="20dp"
+                android:layout_height="14dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/left_arrow" />
+
+        </RelativeLayout>
+
+    </GridLayout>
+
+</RelativeLayout>

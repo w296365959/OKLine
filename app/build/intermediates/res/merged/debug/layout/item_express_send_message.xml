@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/express_send_message_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/send_user_and_company_fl"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <!--下拉展示可选择的快递公司-->
+        <LinearLayout
+            android:id="@+id/express_onTheWay_kd_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/express_onTheWay_kd_rv"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginBottom="@dimen/common_margin_2"
+                android:layout_marginTop="@dimen/common_margin_2"></android.support.v7.widget.RecyclerView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/express_cgray"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/express_send_message_user_ll"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/margin_7"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/express_send_user_img"
+                android:layout_width="@dimen/height_40"
+                android:layout_height="@dimen/height_40"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_7"
+                android:layout_marginRight="@dimen/margin_13"
+                android:src="@mipmap/default_avatar"
+                fresco:placeholderImage="@mipmap/logo2"
+                fresco:roundBottomLeft="true"
+                fresco:roundBottomRight="true"
+                fresco:roundTopLeft="true"
+                fresco:roundTopRight="true"
+                fresco:roundedCornerRadius="3dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/express_send_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="刘易"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize_14" />
+
+                <TextView
+                    android:id="@+id/express_send_number_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:text="13616535488"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/textSize_13" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:background="@color/app_line"></View>
+    <!--货物信息-->
+
+    <include layout="@layout/view_express_cargo_message"></include>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:background="@color/app_line"></View>
+    <!--发货地址-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_40"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="发货地址 :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+        <TextView
+            android:id="@+id/express_send_address_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_7"
+            android:background="@null"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/item_express_update_address_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="填充格式:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_14"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/express_update_send_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_26"
+            android:layout_marginLeft="@dimen/margin_7"
+            android:background="@drawable/bg_shape_textview_unselector"
+            android:gravity="center_vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="添加/修改地址"
+            android:textColor="@color/express_green"
+            android:textSize="@dimen/textSize_14" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

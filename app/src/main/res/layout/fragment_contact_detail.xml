@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="@color/white">
+
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sdv_detail_avatar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@mipmap/default_avatar" />
+
+                <RelativeLayout
+                    android:layout_width="67dp"
+                    android:layout_height="64dp"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/iv_contact_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_name_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/sdv_detail_avatar"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tv_detail_realName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_remark_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/tv_detail_realName"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_pencil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="4dp"
+                            android:layout_toRightOf="@+id/tv_remark_name"
+                            android:padding="4dp"
+                            android:src="@mipmap/pencil"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_detail_remark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/content_text_color"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_pencil1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/pencil"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View style="@style/underline_margin10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/iv_detail_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/contact_detail_call_green" />
+
+                <ImageView
+                    android:id="@+id/iv_detail_chat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/contact_detail_chat_green" />
+
+                <ImageView
+                    android:id="@+id/iv_detail_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/contact_detail_email_black" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_detail_transfer"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/contact_detail_transfer_black" />
+
+                    <RelativeLayout
+                        android:id="@+id/transfer_accounts_dot"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="-8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toRightOf="@id/iv_detail_transfer"
+                        android:background="@drawable/transfer_accounts_num_bg"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/contact_transfer_account_num"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerInParent="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#cc0000"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/iv_detail_delivery"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/contact_detail_delivery_black" />
+
+
+            </LinearLayout>
+
+            <View style="@style/underline_no_margin" />
+
+            <LinearLayout
+                android:id="@+id/ll_card_detail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_item_height"
+                android:layout_marginTop="7dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:drawableLeft="@mipmap/contact_detail_icon"
+                    android:drawablePadding="7dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="12dp"
+                    android:text="名片详情"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_upwards"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/downwards" />
+
+            </LinearLayout>
+
+            <View style="@style/underline_no_margin" />
+
+            <LinearLayout
+                android:id="@+id/ll_detail_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_identity_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="实名信息"
+                    android:textColor="@color/button_green"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_identity_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="姓　名："
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_realName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_identity_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="手机号："
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_phoneNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:text="其他通信"
+                        android:textColor="@color/button_green"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_pencil_otherPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:padding="2dp"
+                        android:src="@mipmap/pencil" />
+
+                </LinearLayout>
+
+
+                <com.vboss.okline.view.widget.ListViewForScrollView
+                    android:id="@+id/lv_other_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:paddingTop="5dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:text="工作名片"
+                        android:textColor="@color/button_green"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_pencil_workCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:padding="2dp"
+                        android:src="@mipmap/pencil" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_company"
+                    style="@style/Text_14sp_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="欧乐杭州有限公司"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_position"
+                    style="@style/Text_14sp_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:text="人事经理"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    style="@style/Text_14sp_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:text="江干区五星路xxxxxxxx"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:text="帐号信息"
+                        android:textColor="@color/button_green"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_pencil_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:padding="2dp"
+                        android:src="@mipmap/pencil" />
+
+                </LinearLayout>
+
+                <com.vboss.okline.view.widget.ListViewForScrollView
+                    android:id="@+id/lv_count_information"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:paddingTop="5dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:text="快递地址"
+                        android:textColor="@color/button_green"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_pencil_delivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:padding="2dp"
+                        android:src="@mipmap/pencil" />
+
+                </LinearLayout>
+
+                <com.vboss.okline.view.widget.ListViewForScrollView
+                    android:id="@+id/lv_express_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:paddingTop="5dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_my_delivery_info"
+                    style="@style/Text_14sp_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="13dp"
+                    android:paddingTop="5dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <!--modify by linzhangbin 2017/6/7 更改UI-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_item_height"
+                android:layout_marginTop="7dp"
+                android:background="@color/white"
+                android:drawableLeft="@mipmap/contact_detail_latest"
+                android:drawablePadding="7dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:text="最近通信"
+                android:textSize="14sp" />
+            <!--modify by linzhangbin 2017/6/7 更改UI  end -->
+
+            <View style="@style/underline_no_margin" />
+
+            <FrameLayout
+                android:id="@+id/fl_chat_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/black"
+                android:layout_weight="1">
+
+            </FrameLayout>
+        </LinearLayout>
+</LinearLayout>

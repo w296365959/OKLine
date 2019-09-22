@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.vboss.okline.view.widget.ClearEditText
+        android:id="@+id/et_remark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_remark_height"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+<!--
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="145222222222"
+        android:textSize="50sp"/>
+-->
+
+</LinearLayout>

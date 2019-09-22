@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="status_bar_height">50dp</dimen>
+
+
+    <dimen name="actionBarTitleSize">24sp</dimen>
+    <!--<dimen name="actionBarSize">60dp</dimen>-->
+    <dimen name="margin_5">10dp</dimen>
+    <dimen name="navigationBarSize">71dp</dimen>
+    <dimen name="tabTextSize">15sp</dimen>
+    <dimen name="contact_item_avatar_width">40dp</dimen>
+    <dimen name="contact_item_avatar_height">40dp</dimen>
+    <dimen name="contact_item_my_height">36dp</dimen>
+    <dimen name="contact_slide_dialog_width">80dp</dimen>
+    <dimen name="contact_slide_dialog_height">80dp</dimen>
+    <dimen name="contact_middle_text">30sp</dimen>
+    <dimen name="contact_slidebar_width">20dp</dimen>
+    <dimen name="tabCardSize">55dp</dimen>
+    <dimen name="contact_item_height">54dp</dimen>
+    <dimen name="dialog_add_width">120dp</dimen>
+    <dimen name="contact_dialog_add_height">52dp</dimen>
+    <dimen name="card_tab_width">113dp</dimen>
+    <dimen name="card_tab_height">55dp</dimen>
+    <dimen name="row_card_margin_left">60dp</dimen>
+    <dimen name="row_card_margin_top">20dp</dimen>
+    <dimen name="ocard_btn_text_size">14sp</dimen>
+    <dimen name="dialog_card_default_top">23dp</dimen>
+    <dimen name="dialog_card_default_size">16sp</dimen>
+    <dimen name="dialog_card_default_height">50dp</dimen>
+    <dimen name="dialog_card_default_width">334dp</dimen>
+    <dimen name="card_open_info_item_height">40dp</dimen>
+    <dimen name="card_open_info_margin_left">6dp</dimen>
+    <dimen name="card_open_info_size">15sp</dimen>
+    <dimen name="card_img_width">280dp</dimen>
+    <dimen name="card_img_height">180dp</dimen>
+    <dimen name="card_pay_img_height">198dp</dimen>
+    <dimen name="card_pay_img_width">316dp</dimen>
+    <dimen name="card_pay_title_tip_size">20sp</dimen>
+    <dimen name="actionBar_logo_width">26dp</dimen>
+    <dimen name="actionBar_logo_height">28dp</dimen>
+    <dimen name="dialog_single_width">344dp</dimen>
+    <dimen name="row_card_width">284.5dp</dimen>
+    <dimen name="row_card_height">180.5dp</dimen>
+    <dimen name="widget_internal_padding_10dp">10dp</dimen>
+    <dimen name="digit_keyboard_text_size">25dp</dimen>
+    <!-- month dialog -->
+    <dimen name="dialog_date_margin_top">16dp</dimen>
+    <dimen name="dialog_date_margin_bottom">2dp</dimen>
+    <!-- card log image -->
+    <dimen name="card_log_image_width">110.6dp</dimen>
+    <dimen name="card_log_image_height">72.6dp</dimen>
+    <dimen name="card_line_height">0.3dp</dimen>
+    <dimen name="checkbox_size">15dp</dimen>
+    <dimen name="logo_btn_size">36dp</dimen>
+    <dimen name="fab_margin">0dp</dimen>
+    <dimen name="width_qr_code">300dp</dimen>
+    <dimen name="width_bar_code">600dp</dimen>
+    <dimen name="height_bar_code">50dp</dimen>
+    <!--express-->
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_40">40dp</dimen>
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_47">47dp</dimen>
+    <dimen name="height_44">44dp</dimen>
+    <dimen name="height_60">60dp</dimen>
+    <dimen name="width_86">86dp</dimen>
+    <dimen name="height_26">26dp</dimen>
+    <dimen name="height_48">48dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="textSize_14">14dp</dimen>
+    <dimen name="textSize_13">13dp</dimen>
+</resources>

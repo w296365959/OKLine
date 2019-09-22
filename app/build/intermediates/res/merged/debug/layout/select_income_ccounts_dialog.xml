@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="bottom"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/select_account_bg">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/incomeAccounts_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            />
+
+        <TextView
+            android:id="@+id/otherside_offer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="对方提供账户"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/app_line"/>
+
+        <TextView
+            android:id="@+id/cancle_select_account"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="取消"
+            android:textSize="14sp"
+            android:textColor="#32abfd"
+            android:gravity="center"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">data</string>
+    <string name="user_not_registered">用户未注册登陆</string>
+</resources>

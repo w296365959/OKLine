@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/rl_dialog_content"
+        android:layout_width="320dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/face_confirm_shape_corner"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/abface_dialog_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/face_detect_alert_dialog_msg_timeout"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/abface_dialog_msg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:text="@string/face_detect_alert_dialog_msg_timeout"
+            android:textColor="#3e3e3e"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/abface_dialog_msg_icons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dip"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="27dip"
+                    android:layout_height="27dip"
+                    android:background="@drawable/face_dialog_hint_enough_light" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dip"
+                    android:text="@string/face_detect_alert_dialog_msg_light_enough"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="27dip"
+                    android:layout_height="27dip"
+                    android:background="@drawable/face_dialog_hint_eye_look_right" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dip"
+                    android:text="@string/face_detect_alert_dialog_msg_right_pose"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dip"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="27dip"
+                    android:layout_height="27dip"
+                    android:background="@drawable/face_dialog_hint_action_too_fast" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dip"
+                    android:text="@string/face_detect_alert_dialog_msg_not_too_fast"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="14dip"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/abface_dialog_button_container"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/abface_dialog_cancel"
+                android:layout_width="160dip"
+                android:layout_height="55dip"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/abface_dialog_cancel_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_detect_alert_dialog_msg_cancle_text"
+                    android:textColor="#666666"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/abface_dialog_split"
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/abface_dialog_ok"
+                android:layout_width="160dip"
+                android:layout_height="55dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/abface_dialog_ok_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/face_detect_alert_dialog_msg_ok_text"
+                    android:textColor="#37a2e6"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

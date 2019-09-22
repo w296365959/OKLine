@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivityBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_settings_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_ol_logo"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57.5dp"
+            android:src="@drawable/ol_logo_large" />
+
+        <TextView
+            android:id="@+id/tv_ol_payment_successful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_ol_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="支付成功!"
+            android:textColor="#4c4c4c"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_ol_payment_successful_amout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_ol_payment_successful"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="￥80.00"
+            android:textColor="#e83600"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_paymentinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+
+
+</LinearLayout>

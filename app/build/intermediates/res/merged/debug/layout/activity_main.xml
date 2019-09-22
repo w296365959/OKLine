@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.vboss.okline.ui.home.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.vboss.okline.view.widget.ArcView
+            android:id="@+id/arc_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/arcview_margin"
+            android:layout_marginRight="10dp"
+            android:visibility="gone">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/contact_floating_bar" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/email_icon_bottom" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chat_icon_bottom" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/phone_icon_bottom" />
+        </com.vboss.okline.view.widget.ArcView>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/contact_floating_bar"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:alpha="0.3"
+            android:background="@drawable/shape_main_tab"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigationBarSize"
+            android:background="@color/white"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!--<TextView
+                    android:id="@+id/tab_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@mipmap/nav_card_normal"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/margin_5"
+                    android:text="@string/tab_card"
+                    android:textColor="@color/colorTabText"
+                    android:visibility="gone"
+                    android:textSize="@dimen/tabTextSize"/>-->
+
+                <ImageButton
+                    android:id="@+id/iv_tab_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/tab_card"
+                    android:src="@mipmap/ic_tab_card_normal"/>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!--<TextView
+                    android:id="@+id/tab_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@mipmap/nav_record_normal"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/margin_5"
+                    android:text="@string/tab_record"
+                    android:textColor="@color/colorTabText"
+                    android:textSize="@dimen/tabTextSize"/>-->
+
+                <ImageButton
+                    android:id="@+id/iv_tab_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/tab_card"
+                    android:src="@mipmap/ic_tab_record_normal"/>
+
+                <ImageView
+                    android:id="@+id/iv_msg_unread_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ease_unread_dot"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!--<TextView
+                    android:id="@+id/tab_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@mipmap/nav_contacts_normal"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/margin_5"
+                    android:text="@string/tab_contacts"
+                    android:textColor="@color/colorTabText"
+                    android:textSize="@dimen/tabTextSize"/>-->
+
+                <ImageButton
+                    android:id="@+id/iv_tab_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/tab_card"
+                    android:src="@mipmap/ic_tab_contact_normal"/>
+                <ImageView
+                    android:id="@+id/iv_contact_unread_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|top"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ease_unread_dot"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!-- <TextView
+                     android:id="@+id/tab_4"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:drawableTop="@mipmap/nav_app_normal"
+                     android:gravity="center"
+                     android:paddingTop="@dimen/margin_5"
+                     android:text="@string/tab_app"
+                     android:textColor="@color/colorTabText"
+                     android:textSize="@dimen/tabTextSize"/>-->
+
+                <ImageButton
+                    android:id="@+id/iv_tab_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/tab_card"
+                    android:src="@mipmap/ic_tab_app_normal"/>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

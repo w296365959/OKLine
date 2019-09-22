@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.vboss.okline.tsm">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <!-- service -->
+        <service
+            android:name="com.cosw.sdkblecard.PlkBluetoothLeService"
+            android:enabled="true" />
+
+        <!-- 蓝牙更新service -->
+        <service
+            android:name="com.cosw.sdkblecard.DfuService"
+            android:exported="true"
+            android:label="dfu_service_title">
+            <intent-filter>
+                <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

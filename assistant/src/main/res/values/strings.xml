@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">卡助理</string>
+    <string name="app_title">卡助理</string>
+
+    <!--Added by wangshuai 2017-06-08 -->
+    <string name="card_down">下载卡</string>
+    <string name="card_recharge">充值</string>
+    <string name="rmb">¥</string>
+    <string name="card_balance">余额&#8197;:&#8197;%s</string>
+    <string name="card_percentage" formatted="false">%1$d/%2$d</string>
+    <string name="card_no">卡号&#8197;:&#8197;%s</string>
+    <string name="quarter_empty">&#8197;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opaysdk_pospass">POS通卡</string>
+
+    <!-- card notice string-->
+    <string name="card_notice_ensure">确认&#8197;(&#8197;%d&#8197;S&#8197;)</string>
+    <string name="card_ensure">确认</string>
+    <string name="card_notice_no_recharge">放弃充值</string>
+    <string name="card_notice_no_down">放弃下载</string>
+    <string name="card_notice_recharge_amount">充值&#8197;:&#8197;¥&#8197;%s</string>
+    <string name="card_notice_consume_amount">消费金额&#8197;:&#8197;¥&#8197;%s</string>
+    <string name="card_notice_download_fail">下载%s失败</string>
+    <string name="card_notice_download_success">下载%s成功</string>
+    <string name="card_notice_download_again">重新下载</string>
+    <string name="card_notice_recharge_fail">充值失败</string>
+    <string name="card_notice_recharge_info">充值详情</string>
+    <string name="card_notice_recharge_again">重新充值</string>
+    <string name="card_notice_card_info">卡信息</string>
+    <string name="card_notice_discount_active">优惠活动</string>
+    <string name="card_notice_valid">有效期</string>
+    <string name="card_notice_check_bluetooth">请检查欧卡与手机蓝牙连接是否正常</string>
+    <string name="card_notice_check_OCard">欧卡剩余控件不足，无法完成下载</string>
+
+    <!-- dialog string -->
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_ok">好的</string>
+    <string name="dialog_recharge_give_up">放弃充值</string>
+    <string name="dialog_recharge_give_up_content">是否放弃本次充值?</string>
+    <string name="dialog_recharge_feedback">充值金额将在7个工作日内返还至您的支付卡中</string>
+
+    <!-- card info string-->
+    <string name="card_name_1">卡&#8194;名&#8194;称&#8197;:&#8197;%s</string>
+    <string name="card_number_1">卡&#8195;&#8195;号&#8197;:&#8197;%s</string>
+    <string name="card_valid">有效期至&#8197;:&#8197;%s</string>
+    <string name="card_organization">发卡机构&#8197;:&#8197;%s</string>
+
+    <!-- recharge info string -->
+    <string name="recharge_card">充值卡&#8197;:&#8197;%s</string>
+    <string name="recharge_amount">充值金额&#8197;:&#8197;%s元</string>
+    <string name="recharge_give_amount">赠送金额&#8197;:&#8197;%s元</string>
+    <string name="recharge_real_amount">实际到账金额&#8197;:&#8197;%s元</string>
+    <string name="recharge_payment">支付方式&#8197;:&#8197;%s</string>
+    <string name="recharge_payment_amount">支付金额&#8197;:&#8197;%s元</string>
+    <string name="recharge_date">充值时间&#8197;:&#8197;%s</string>
+
+    <!-- recharge discount active string -->
+    <string name="recharge_discount_date">活动截止&#8197;:&#8197;%s</string>
+    <string name="recharge_index">:</string>
+    <string name="text_card_tail_no">尾号</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="opaysdk_quitpayment">是否取消本次付款？</string>
+    <string name="settings_no">否</string>
+    <string name="settings_yes">是</string>
+    <string name="payment_confirm">确认付款</string>
+    <string name="re_try">重试</string>
+    <string name="error_connection_lost">连接异常，请稍后再试</string>
+    <string name="card_open_no_card_alert">没有快捷支付银行卡，请稍后再试！</string>
+    <string name="payment_process_loading">正在支付</string>
+    <string name="my_profile">我的名片</string>
+    <string name="my_profile_save">保存</string>
+    <string name="pay_status_success">支付成功</string>
+    <string name="edit_completed">完成</string>
+    <string name="pay_status_failure">支付失败</string>
+    <string name="tv_opaysdk_resultfailed_reason_prefix">抱歉，错误原因：</string>
+    <string name="tv_opaysdk_resultfailed_reason_postfix">，本次支付未能成功</string>
+
+</resources>

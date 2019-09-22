@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/face_circle_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="43dip"
+        android:background="#93cbee" >
+
+        <Button
+            android:id="@+id/face_nav_title_bar_back_button"
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/face_top_back" />
+
+        <Button
+            android:id="@+id/face_nav_title_bar_sound_button"
+            android:layout_width="25dip"
+            android:layout_height="23dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/face_top_sound_on" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/face_circle_title_textview"
+        android:layout_below="@+id/face_circle_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/face_detect_action_movein_circle"
+        android:textColor="#00abed"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="50dip"
+        android:textStyle="bold" />
+
+    <com.alibaba.security.biometrics.face.auth.widget.CircleMaskFrameLayout
+        android:id="@+id/face_circle_mask_framelayout"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dip"
+        android:layout_below="@+id/face_circle_title_textview"
+        app:facelivnesssdk_enabled="true" >
+
+        <com.alibaba.security.biometrics.face.auth.widget.CameraSurfaceView
+            android:id="@+id/face_circle_surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </com.alibaba.security.biometrics.face.auth.widget.CircleMaskFrameLayout>
+
+    <com.alibaba.security.biometrics.face.auth.widget.Circle
+        android:id="@+id/face_circle_outter_circle"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@id/face_circle_mask_framelayout"
+        android:layout_alignTop="@id/face_circle_mask_framelayout"
+        android:layout_gravity="center"
+        app:facelivnesssdk_process_color="#ff7700"
+        app:facelivnesssdk_color="#00abed" />
+
+</RelativeLayout>

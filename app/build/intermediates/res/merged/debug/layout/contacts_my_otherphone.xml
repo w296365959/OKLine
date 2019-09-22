@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact_newcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--<com.vboss.okline.view.widget.ListViewForScrollView
+                android:id="@+id/lv_add_otherphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@null" />-->
+            <LinearLayout
+                android:id="@+id/ll_item_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--<com.vboss.okline.view.widget.ItemView
+                    android:id="@+id/itemview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>-->
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_add_phone"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:drawableLeft="@mipmap/contact_add_green"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="添加通信方式"
+                android:textColor="@color/button_green"
+                android:textSize="15sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_save_otherphone"
+                android:layout_width="@dimen/add_button_width"
+                android:layout_height="@dimen/add_button_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/add_button_topmargin"
+                android:background="@drawable/contact_button_click_selector"
+                android:gravity="center"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

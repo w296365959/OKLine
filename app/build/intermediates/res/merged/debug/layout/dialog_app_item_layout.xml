@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/app_item_wight"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/app_icon"
+        android:layout_width="@dimen/app_pool_newApp_img_height"
+        android:layout_height="@dimen/app_pool_newApp_img_height"
+        android:layout_centerHorizontal="true"
+        app:actualImageScaleType="fitXY"
+        app:placeholderImageScaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/app_installed_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/app_icon"
+        android:layout_alignLeft="@id/app_icon"
+        android:background="@mipmap/installed_icon"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/app_pendingupdate_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/app_icon"
+        android:layout_alignLeft="@id/app_icon"
+        android:background="@mipmap/pending_update_icon"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/app_img_margin_name"
+        android:gravity="center"/>
+</RelativeLayout>

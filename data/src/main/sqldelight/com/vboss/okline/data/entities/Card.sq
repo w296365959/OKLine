@@ -1,0 +1,20 @@
+CREATE TABLE Card (
+    cardId  INTEGER as integer NOT NULL ,
+    cardNo TEXT,
+    appId INTEGER AS integer not null default 0,
+    imgUrl TEXT,
+    iconUrl TEXT,
+    bindId TEXT,
+    aid TEXT,
+    isQuickPass INTEGER AS integer not null default 0,
+    isDefault INTEGER AS integer not null default 0,
+    balance INTEGER AS integer not null default 0,
+    integral INTEGER AS integer not null default 0,
+    cardName TEXT,
+    merName TEXT,
+    cardMainType INTEGER AS integer not null,
+    primary key (cardId, cardMainType)
+);
+
+DROP_TABLE:
+DROP TABLE IF EXISTS Card;

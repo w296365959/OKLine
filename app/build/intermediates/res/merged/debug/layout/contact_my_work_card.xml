@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_card_background"
+    android:orientation="vertical">
+
+    <com.vboss.okline.base.helper.FragmentToolbar
+        android:id="@+id/toolbar_contact_workcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_create_con_phone"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <TextView
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="公司名："/>
+
+        <com.vboss.okline.view.widget.ClearEditText
+            android:id="@+id/et_company_name"
+            style="@style/inputStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+    <View
+        style="@style/underline_margin10"/>
+
+    <LinearLayout
+        android:id="@+id/ll_create_con_name"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <TextView
+            style="@style/Text_14sp_black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="职　位："
+            />
+
+        <com.vboss.okline.view.widget.ClearEditText
+            android:id="@+id/et_job_position"
+            style="@style/inputStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+
+    <View
+        style="@style/underline_margin10"/>
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <TextView
+            style="@style/Text_14sp_black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:text="所在地区"
+            />
+        <TextView
+            android:id="@+id/tv_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="请选择"
+            android:textColor="@color/contact_item_category"
+            android:textSize="14sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:src="@mipmap/arrowright"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/underline_no_margin"/>
+    
+    <EditText
+        android:id="@+id/et_detail_location"
+        style="@style/inputStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="请填写详细地址，不少于5个字"
+        android:paddingBottom="106dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="14dp"
+        android:textCursorDrawable="@null"/>
+
+    <TextView
+        android:id="@+id/tv_save_address"
+        android:layout_width="@dimen/add_button_width"
+        android:layout_height="@dimen/add_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/add_button_topmargin"
+        android:background="@drawable/contact_button_click_selector"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>

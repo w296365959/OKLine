@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vboss.okline"
+    android:versionCode="201705221"
+    android:versionName="1.0.052" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="25" />
+
+    <!-- Ocr需要的权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- -环信需要的-权限 -->
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="manifest.permission.RECORD_AUDIO" />
+    <!-- Required -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 监听电话权限 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 蓝牙设备管理权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+    <!-- NFC -->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signatureOrSystem" />
+
+    <uses-permission android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <!-- 短信权限 -->
+    <!-- 发送消息 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 接收消息 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- 通话记录 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <!-- 免提 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <permission
+        android:name="com.vboss.okline.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" /> <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="com.vboss.okline.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" /> <!-- Optional for location -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" /> <!-- GCM required, remember replace "com.hyphenate.chatuidemo" to your own package -->
+    <application
+        android:name="com.vboss.okline.base.OKLineApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="android.nfc.disable_beam_default"
+            android:value="true" />
+
+        <!-- 欢迎页面 -->
+        <activity
+            android:name="com.vboss.okline.ui.home.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.vboss.okline.ui.splash.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <activity android:name=".ui.home.MainActivity"/> -->
+
+
+        <!-- OCR图睿sdk中的页面 -->
+
+
+        <!-- 支付界面 -->
+        <activity android:name="com.vboss.okline.ui.opay.PaymentFailedActivity" />
+        <activity android:name="com.vboss.okline.ui.opay.PaymentSuccessfulActivity" />
+        <activity
+            android:name="com.vboss.okline.ui.opay.OPaySDKActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.Translucent" />
+        <activity
+            android:name="com.vboss.okline.ui.user.OpenCardActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.turui.bank.ocr.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.ui.card.TRCardScan"
+            android:screenOrientation="landscape" />
+
+        <!-- 身份证拍照 -->
+
+        <activity
+            android:name="com.vboss.okline.ui.auth.CameraIDActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.auth.SplashActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- -自定义相机拍摄手持身份证照片 -->
+        <activity
+            android:name="com.vboss.okline.ui.auth.CamerSelfActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.auth.ApproveIDActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- -身份认证成功和失败的页面 -->
+        <activity
+            android:name="com.vboss.okline.ui.auth.VerifySuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.auth.VerifyFailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 通讯录 -->
+        <activity
+            android:name="com.vboss.okline.ui.contact.group.CreateGroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.addContact.AddContactActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.TransRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.TransPaymentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.EditAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.SelectAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.IncomeTransRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.group.EditGroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.ContactDetail.SendEmailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.myCard.ChooseAddressActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.callPhone.DialActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.callPhone.CallingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.vboss.okline.ui.contact.callPhone.CallingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vboss.okline.ui.contact.ChatSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+
+        <!-- 打电话需要的服务 -->
+        <service android:name="com.vboss.okline.ui.contact.callPhone.CallingService" />
+
+        <!-- NFC -->
+        <activity
+            android:name="com.vboss.okline.ui.contact.c2cPart.C2CmainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.c2cPart.C2CwaitingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+
+            <!-- lzb edit 2017/05/12 屏蔽NFC -->
+            <!--
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+            </intent-filter>
+            -->
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.vboss.okline.ui.contact.c2cPart.C2CsuccessActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 搜索界面 -->
+        <activity
+            android:name="com.vboss.okline.ui.contact.search.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.user.UserActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 环信得配置 -->
+        <!-- 设置环信应用的AppKey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="1116170407115058#trunk" />
+        <!-- 声明sdk所需的service -->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true" />
+        <service
+            android:name="com.hyphenate.chat.EMJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver android:name="com.hyphenate.chat.EMMonitorReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+             <activity
+             android:name="com.hyphenate.easeui.ui.EaseBaiduMapActivity"
+             android:screenOrientation="portrait"
+             android:theme="@style/horizontal_slide"/>
+        -->
+        <!-- 显示下载大图页面 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 下载文件 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.EaseShowNormalFileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.hyphenate.easeui.ui.EaseShowVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 聊天界面 -->
+        <activity
+            android:name="com.vboss.okline.ui.im.ChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 视频 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.ImageGridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.hyphenate.easeui.ui.RecorderVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- 语音通话 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.VoiceCallActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/nornal_style" />
+        <!-- 视频通话 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.VideoCallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+
+        <!-- For JPush -->
+        <activity
+            android:name="com.vboss.okline.jpush.JPushActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Translucent.JPush" />
+
+        <!-- pos 签购单 小票 发票 -->
+        <activity
+            android:name="com.vboss.okline.ui.card.ticket.CardTicketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.card.recharge.CardRechargeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- QrCode scanner -->
+        <activity
+            android:name="com.vboss.okline.ui.scanner.QRCodeActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.vboss.okline.jpush.JPushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION" />
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="com.vboss.okline" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.vboss.okline.test.TestPhoneActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.vboss.okline.ui.user.PersonalInfoApprovalActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.vboss.okline.ui.record.search.RecordSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.vboss.okline.ui.home.DownloadActivity" />
+
+        <receiver
+            android:name="com.vboss.okline.ui.home.InitApkBroadCastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.vboss.okline.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.SelectBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme" />
+        <activity
+            android:name="com.vboss.okline.ui.contact.TransferAccounts.SearchBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme" />
+
+        <!-- begin assistant model activity register -->
+        <activity
+            android:name="com.okline.vboss.assistant.ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.okline.vboss.assistant.ui.recharge.CardRechargeActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.okline.vboss.assistant.ui.opencard.UploadCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/My_Theme_assisant" />
+        <activity
+            android:name="com.okline.vboss.assistant.ui.opay.OPaySDKActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.okline.vboss.assistant.ui.notice.CardNoticeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Translucent" />
+        <!-- end assistant model activity register -->
+
+
+        <!-- add by yuanshaoyu 下载器后台服务 -->
+        <service android:name="com.vboss.okline.ui.home.download.DownLoadService" />
+
+        <activity
+            android:name="com.vboss.okline.ui.express.ExpressActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.vboss.okline.ui.express.ExpressChooseAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.vboss.okline.ui.transAccount.TransMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name="com.vboss.okline.ui.user.files.MyPhotosActivity"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity android:name="com.vboss.okline.ui.user.files.MyFilesActivity" >
+        </activity>
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" /> <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.vboss.okline" />
+            </intent-filter>
+        </activity> <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" /> <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.vboss.okline" />
+            </intent-filter>
+        </service> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.vboss.okline" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="5b7e372b2b7be0c407627f8e" />
+
+        <activity
+            android:name="com.alibaba.wireless.security.framework.SGProxyActivity"
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.wireless.security.open.framework.DLProxyActivity.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- android:allowBackup="false" -->
+        <!-- android:label="FaceLivenessSDK" -->
+        <!-- android:theme="@style/ABFaceLivenessAppTheme" -->
+        <activity
+            android:name="com.alibaba.security.biometrics.face.auth.FaceLivenessActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.alibaba.security.biometrics.faceliveness" >
+        </activity>
+        <activity
+            android:name="com.alibaba.security.biometrics.face.auth.FaceCaptchaActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.alibaba.security.biometrics.faceliveness" >
+        </activity>
+        <activity
+            android:name="com.alibaba.security.biometrics.face.auth.view.FaceLivenessNavActitity"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.alibaba.security.biometrics.faceliveness" >
+        </activity>
+        <activity
+            android:name="com.alibaba.security.rp.activity.RPTakePhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alibaba.security.rp.activity.RPH5Activity"
+            android:screenOrientation="portrait" /> <!-- service -->
+        <service
+            android:name="com.cosw.sdkblecard.PlkBluetoothLeService"
+            android:enabled="true" /> <!-- 蓝牙更新service -->
+        <service
+            android:name="com.cosw.sdkblecard.DfuService"
+            android:exported="true"
+            android:label="dfu_service_title" >
+            <intent-filter>
+                <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+    </application>
+
+</manifest>

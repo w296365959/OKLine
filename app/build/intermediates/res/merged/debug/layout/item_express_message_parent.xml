@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/white"
+    android:layout_marginTop="4dp">
+
+    <TextView
+        android:id="@+id/text_record_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:gravity="center_vertical"
+        android:text="发快递信息"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_14" />
+
+    <View
+        android:layout_above="@id/text_record_date_title"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/color_card_open_line"></View>
+    <ImageView
+        android:id="@+id/arrow_record_date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/downwards"/>
+
+
+
+</RelativeLayout>

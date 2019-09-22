@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionBarSize">44dp</dimen>
+    <dimen name="checkbox_size">15dp</dimen>
+    <dimen name="logo_btn_size">36dp</dimen>
+    <dimen name="digit_keyboard_text_size">25dp</dimen>
+</resources>

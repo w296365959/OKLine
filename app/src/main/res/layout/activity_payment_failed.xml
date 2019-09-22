@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/view_settings_header"/>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_ol_logo"
+            android:layout_marginTop="106.5dp"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo2"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_opaysdk_resultfailed_reason"
+            android:textColor="#4c4c4c"
+            android:text="抱歉,错误原因:.......,本次支付没有成功!"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:lineSpacingExtra="10dp"
+            android:layout_below="@id/iv_ol_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

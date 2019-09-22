@@ -1,0 +1,16 @@
+CREATE TABLE Contact(
+    friendId INTEGER as integer NOT NULL PRIMARY KEY,
+    phone TEXT,
+    realName TEXT,
+    nickName TEXT,
+    imgUrl TEXT,
+    friendOlNo TEXT,
+    remarkName TEXT,
+    operatType INTEGER as integer not null,
+    isNote INTEGER as integer not null,
+    relationState INTEGER AS integer default 0
+);
+
+select_all:
+SELECT *
+FROM Contact;

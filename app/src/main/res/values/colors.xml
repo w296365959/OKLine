@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="black">#000000</color>
+    <color name="black_light">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_light">#EBEBEB</color>
+    <color name="ipss8_safe_calling">#CDFFC6</color>
+
+    <color name="colorTabText">#929292</color>
+
+
+    <color name="transparent">#00000000</color>
+
+
+    <!--Contact part-->
+    <color name="bg_preferences">#ebebeb</color>
+    <color name="contact_item_category">#808080</color>
+    <color name="colorActivityBackground">#EBEBEB</color>
+    <color name="divider_color">#dfdfdf</color>
+    <color name="item_press_color">#C4E1FF</color>
+    <color name="contacts_card_phoneNum">#999999</color>
+    <color name="background_light">#ffffff</color>
+    <color name="content_text_color">#4c4c4c</color>
+    <color name="contacts_transfer_RMB">#313131</color>
+    <color name="darker_gray">#666</color>
+    <color name="button_green">#25A613</color>
+    <color name="dial_keyboard_bg">#333333</color>
+    <color name="dial_keyboard_bottom_bg">#e0e0e0</color>
+    <color name="dial_keyboard_item_bg">#F5F5F5</color>
+    <color name="calling_text_hangup">#111010</color>
+    <color name="button_my_normal">#25A613</color>
+    <color name="button_my_checked">#7E1717</color>
+    <!--app模块-->
+    <color name="appPool">#fefefe</color>
+    <color name="bg">#f4f4f4</color>
+    <color name="app_line">#dfdfdf</color>
+    <color name="app_card_mername_color">#9e9e9e</color>
+    <color name="firtpagedialog">#bf000000</color>
+
+    <color name="colorWarningText">#F00</color>
+    <color name="colorThemeBackground">#1f86ed</color>
+    <color name="colorButtonBackgroundClickable">#579ad3</color>
+    <color name="colorButtonBackgroundUnClickable">#999999</color>
+
+    <color name="frame_layout_color">#80000000</color>
+    <color name="colorCardPayTip">#ff6600</color>
+    <color name="colorCardPayMoney">#ffb685</color>
+
+
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="color_dialog_default_line">#c2c2c2</color>
+    <color name="color_dialog_default_ok">#32abfe</color>
+    <color name="color_dialog_default_cancel">#737373</color>
+    <color name="color_card_background">#F4F4F4</color>
+    <color name="color_card_open_line">#dfdfdf</color>
+    <color name="text_no_contact">#AEAEAE</color>
+
+
+    <color name="c_8E8E8E">#8E8E8E</color>
+    <color name="c_F4F4F4">#F4F4F4</color>
+    <color name="c_FE6700">#FE6700</color>
+    <color name="c_12662A">#12662A</color>
+    <color name="c_C94900">#C94900</color>
+    <color name="c_838383">#838383</color>
+    <color name="c_FF6500">#FF6500</color>
+    <color name="c_808080">#808080</color>
+    <color name="c_34ABFF">#34ABFF</color>
+
+    <color name="color_pos_ticket">#343434</color>
+    <color name="c_7A7A7A">#7A7A7A</color>
+    <color name="colorShadow">#33000000</color>
+    <color name="brick_red">#e06616</color>
+    <color name="colorOPayBackground">#1763A1</color>
+    <color name="colorPagerBackground">#f4f4f4</color>
+    <color name="colorContentSubText">#999999</color>
+    <color name="opayStyleColor">#25a514</color>
+
+    <color name="upgrade_dialog_btn_left">#FF3800</color>
+    <color name="upgrade_dialog_btn_right">#34ABFF</color>
+    <color name="colorCardNotice">#fd6600</color>
+    <color name="color_card_search_blue">#0eb6f5</color>
+    <color name="transparency_65_2">#65000000</color>
+    <color name="dash_line">#6666</color>
+
+    <!--新转账界面-->
+    <color name="transAccount_green">#26a515</color>
+    <color name="transAccount_tab">#b3b3b3</color>
+    <color name="trans_state_textColor">#aaaaaa</color>
+
+    <color name="express_green">#25a613</color>
+    <color name="express_gray">#7e7e7e</color>
+    <color name="express_cgray">#cecece</color>
+
+</resources>
